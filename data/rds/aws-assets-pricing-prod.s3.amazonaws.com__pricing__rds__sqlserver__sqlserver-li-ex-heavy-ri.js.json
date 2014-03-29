@@ -1,0 +1,592 @@
+{
+  "vers": 0.01,
+  "config": {
+    "regions": [
+      {
+        "region": "us-east",
+        "instanceTypes": [
+          {
+            "tiers": [
+              {
+                "valueColumns": [
+                  {
+                    "prices": {
+                      "USD": "62"
+                    },
+                    "name": "yrTerm1"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.015"
+                    },
+                    "rate": "perhr",
+                    "name": "yearTerm1Hourly"
+                  },
+                  {
+                    "prices": {
+                      "USD": "100"
+                    },
+                    "name": "yrTerm3"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.014"
+                    },
+                    "rate": "perhr",
+                    "name": "yearTerm3Hourly"
+                  }
+                ],
+                "size": "db.t1.micro"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "prices": {
+                      "USD": "195"
+                    },
+                    "name": "yrTerm1"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.047"
+                    },
+                    "rate": "perhr",
+                    "name": "yearTerm1Hourly"
+                  },
+                  {
+                    "prices": {
+                      "USD": "300"
+                    },
+                    "name": "yrTerm3"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.040"
+                    },
+                    "rate": "perhr",
+                    "name": "yearTerm3Hourly"
+                  }
+                ],
+                "size": "db.m1.small"
+              }
+            ],
+            "type": "Single-AZ Deployment (Reserved)"
+          }
+        ]
+      },
+      {
+        "region": "us-west-2",
+        "instanceTypes": [
+          {
+            "tiers": [
+              {
+                "valueColumns": [
+                  {
+                    "prices": {
+                      "USD": "62"
+                    },
+                    "name": "yrTerm1"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.015"
+                    },
+                    "rate": "perhr",
+                    "name": "yearTerm1Hourly"
+                  },
+                  {
+                    "prices": {
+                      "USD": "100"
+                    },
+                    "name": "yrTerm3"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.014"
+                    },
+                    "rate": "perhr",
+                    "name": "yearTerm3Hourly"
+                  }
+                ],
+                "size": "db.t1.micro"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "prices": {
+                      "USD": "195"
+                    },
+                    "name": "yrTerm1"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.047"
+                    },
+                    "rate": "perhr",
+                    "name": "yearTerm1Hourly"
+                  },
+                  {
+                    "prices": {
+                      "USD": "300"
+                    },
+                    "name": "yrTerm3"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.040"
+                    },
+                    "rate": "perhr",
+                    "name": "yearTerm3Hourly"
+                  }
+                ],
+                "size": "db.m1.small"
+              }
+            ],
+            "type": "Single-AZ Deployment (Reserved)"
+          }
+        ]
+      },
+      {
+        "region": "us-west",
+        "instanceTypes": [
+          {
+            "tiers": [
+              {
+                "valueColumns": [
+                  {
+                    "prices": {
+                      "USD": "62"
+                    },
+                    "name": "yrTerm1"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.019"
+                    },
+                    "rate": "perhr",
+                    "name": "yearTerm1Hourly"
+                  },
+                  {
+                    "prices": {
+                      "USD": "100"
+                    },
+                    "name": "yrTerm3"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.018"
+                    },
+                    "rate": "perhr",
+                    "name": "yearTerm3Hourly"
+                  }
+                ],
+                "size": "db.t1.micro"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "prices": {
+                      "USD": "195"
+                    },
+                    "name": "yrTerm1"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.059"
+                    },
+                    "rate": "perhr",
+                    "name": "yearTerm1Hourly"
+                  },
+                  {
+                    "prices": {
+                      "USD": "300"
+                    },
+                    "name": "yrTerm3"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.049"
+                    },
+                    "rate": "perhr",
+                    "name": "yearTerm3Hourly"
+                  }
+                ],
+                "size": "db.m1.small"
+              }
+            ],
+            "type": "Single-AZ Deployment (Reserved)"
+          }
+        ]
+      },
+      {
+        "region": "eu-ireland",
+        "instanceTypes": [
+          {
+            "tiers": [
+              {
+                "valueColumns": [
+                  {
+                    "prices": {
+                      "USD": "62"
+                    },
+                    "name": "yrTerm1"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.019"
+                    },
+                    "rate": "perhr",
+                    "name": "yearTerm1Hourly"
+                  },
+                  {
+                    "prices": {
+                      "USD": "100"
+                    },
+                    "name": "yrTerm3"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.018"
+                    },
+                    "rate": "perhr",
+                    "name": "yearTerm3Hourly"
+                  }
+                ],
+                "size": "db.t1.micro"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "prices": {
+                      "USD": "195"
+                    },
+                    "name": "yrTerm1"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.059"
+                    },
+                    "rate": "perhr",
+                    "name": "yearTerm1Hourly"
+                  },
+                  {
+                    "prices": {
+                      "USD": "300"
+                    },
+                    "name": "yrTerm3"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.049"
+                    },
+                    "rate": "perhr",
+                    "name": "yearTerm3Hourly"
+                  }
+                ],
+                "size": "db.m1.small"
+              }
+            ],
+            "type": "Single-AZ Deployment (Reserved)"
+          }
+        ]
+      },
+      {
+        "region": "apac-sin",
+        "instanceTypes": [
+          {
+            "tiers": [
+              {
+                "valueColumns": [
+                  {
+                    "prices": {
+                      "USD": "62"
+                    },
+                    "name": "yrTerm1"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.019"
+                    },
+                    "rate": "perhr",
+                    "name": "yearTerm1Hourly"
+                  },
+                  {
+                    "prices": {
+                      "USD": "100"
+                    },
+                    "name": "yrTerm3"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.018"
+                    },
+                    "rate": "perhr",
+                    "name": "yearTerm3Hourly"
+                  }
+                ],
+                "size": "db.t1.micro"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "prices": {
+                      "USD": "195"
+                    },
+                    "name": "yrTerm1"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.059"
+                    },
+                    "rate": "perhr",
+                    "name": "yearTerm1Hourly"
+                  },
+                  {
+                    "prices": {
+                      "USD": "300"
+                    },
+                    "name": "yrTerm3"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.049"
+                    },
+                    "rate": "perhr",
+                    "name": "yearTerm3Hourly"
+                  }
+                ],
+                "size": "db.m1.small"
+              }
+            ],
+            "type": "Single-AZ Deployment (Reserved)"
+          }
+        ]
+      },
+      {
+        "region": "apac-tokyo",
+        "instanceTypes": [
+          {
+            "tiers": [
+              {
+                "valueColumns": [
+                  {
+                    "prices": {
+                      "USD": "65"
+                    },
+                    "name": "yrTerm1"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.024"
+                    },
+                    "rate": "perhr",
+                    "name": "yearTerm1Hourly"
+                  },
+                  {
+                    "prices": {
+                      "USD": "105"
+                    },
+                    "name": "yrTerm3"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.023"
+                    },
+                    "rate": "perhr",
+                    "name": "yearTerm3Hourly"
+                  }
+                ],
+                "size": "db.t1.micro"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "prices": {
+                      "USD": "205"
+                    },
+                    "name": "yrTerm1"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.065"
+                    },
+                    "rate": "perhr",
+                    "name": "yearTerm1Hourly"
+                  },
+                  {
+                    "prices": {
+                      "USD": "315"
+                    },
+                    "name": "yrTerm3"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.054"
+                    },
+                    "rate": "perhr",
+                    "name": "yearTerm3Hourly"
+                  }
+                ],
+                "size": "db.m1.small"
+              }
+            ],
+            "type": "Single-AZ Deployment (Reserved)"
+          }
+        ]
+      },
+      {
+        "region": "apac-syd",
+        "instanceTypes": [
+          {
+            "tiers": [
+              {
+                "valueColumns": [
+                  {
+                    "prices": {
+                      "USD": "62"
+                    },
+                    "name": "yrTerm1"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.019"
+                    },
+                    "rate": "perhr",
+                    "name": "yearTerm1Hourly"
+                  },
+                  {
+                    "prices": {
+                      "USD": "100"
+                    },
+                    "name": "yrTerm3"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.018"
+                    },
+                    "rate": "perhr",
+                    "name": "yearTerm3Hourly"
+                  }
+                ],
+                "size": "db.t1.micro"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "prices": {
+                      "USD": "195"
+                    },
+                    "name": "yrTerm1"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.059"
+                    },
+                    "rate": "perhr",
+                    "name": "yearTerm1Hourly"
+                  },
+                  {
+                    "prices": {
+                      "USD": "300"
+                    },
+                    "name": "yrTerm3"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.049"
+                    },
+                    "rate": "perhr",
+                    "name": "yearTerm3Hourly"
+                  }
+                ],
+                "size": "db.m1.small"
+              }
+            ],
+            "type": "Single-AZ Deployment (Reserved)"
+          }
+        ]
+      },
+      {
+        "region": "sa-east-1",
+        "instanceTypes": [
+          {
+            "tiers": [
+              {
+                "valueColumns": [
+                  {
+                    "prices": {
+                      "USD": "84"
+                    },
+                    "name": "yrTerm1"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.018"
+                    },
+                    "rate": "perhr",
+                    "name": "yearTerm1Hourly"
+                  },
+                  {
+                    "prices": {
+                      "USD": "135"
+                    },
+                    "name": "yrTerm3"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.017"
+                    },
+                    "rate": "perhr",
+                    "name": "yearTerm3Hourly"
+                  }
+                ],
+                "size": "db.t1.micro"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "prices": {
+                      "USD": "373"
+                    },
+                    "name": "yrTerm1"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.072"
+                    },
+                    "rate": "perhr",
+                    "name": "yearTerm1Hourly"
+                  },
+                  {
+                    "prices": {
+                      "USD": "574"
+                    },
+                    "name": "yrTerm3"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.054"
+                    },
+                    "rate": "perhr",
+                    "name": "yearTerm3Hourly"
+                  }
+                ],
+                "size": "db.m1.small"
+              }
+            ],
+            "type": "Single-AZ Deployment (Reserved)"
+          }
+        ]
+      }
+    ],
+    "currencies": [
+      "USD"
+    ],
+    "valueColumns": [
+      "upfront",
+      "hourly",
+      "upfront",
+      "hourly"
+    ]
+  }
+}

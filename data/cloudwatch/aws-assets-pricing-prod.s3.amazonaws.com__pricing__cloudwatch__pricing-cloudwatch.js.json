@@ -1,0 +1,395 @@
+{
+  "vers": 0.01,
+  "config": {
+    "currencies": [
+      "USD"
+    ],
+    "rate": "perInstance@1mindetailed",
+    "regions": [
+      {
+        "region": "us-east",
+        "types": [
+          {
+            "name": "ec2Monitoring",
+            "values": [
+              {
+                "prices": {
+                  "USD": "3.50"
+                }
+              }
+            ]
+          },
+          {
+            "name": "cwMetrics",
+            "values": [
+              {
+                "prices": {
+                  "USD": "0.50"
+                },
+                "rate": "perMetricperMonth"
+              }
+            ]
+          },
+          {
+            "name": "cwAlarms",
+            "values": [
+              {
+                "prices": {
+                  "USD": "0.10"
+                },
+                "rate": "perAlarmPerMonthAfter10Alarms"
+              }
+            ]
+          },
+          {
+            "name": "cwRequests",
+            "values": [
+              {
+                "prices": {
+                  "USD": "0.01"
+                },
+                "rate": "perRequestperMonth"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "region": "us-west-2",
+        "types": [
+          {
+            "name": "ec2Monitoring",
+            "values": [
+              {
+                "prices": {
+                  "USD": "3.50"
+                }
+              }
+            ]
+          },
+          {
+            "name": "cwMetrics",
+            "values": [
+              {
+                "prices": {
+                  "USD": "0.50"
+                },
+                "rate": "perMetricperMonth"
+              }
+            ]
+          },
+          {
+            "name": "cwAlarms",
+            "values": [
+              {
+                "prices": {
+                  "USD": "0.10"
+                },
+                "rate": "perAlarmPerMonthAfter10Alarms"
+              }
+            ]
+          },
+          {
+            "name": "cwRequests",
+            "values": [
+              {
+                "prices": {
+                  "USD": "0.01"
+                },
+                "rate": "perRequestperMonth"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "region": "us-west",
+        "types": [
+          {
+            "name": "ec2Monitoring",
+            "values": [
+              {
+                "prices": {
+                  "USD": "3.50"
+                }
+              }
+            ]
+          },
+          {
+            "name": "cwMetrics",
+            "values": [
+              {
+                "prices": {
+                  "USD": "0.50"
+                },
+                "rate": "perMetricperMonth"
+              }
+            ]
+          },
+          {
+            "name": "cwAlarms",
+            "values": [
+              {
+                "prices": {
+                  "USD": "0.10"
+                },
+                "rate": "perAlarmPerMonthAfter10Alarms"
+              }
+            ]
+          },
+          {
+            "name": "cwRequests",
+            "values": [
+              {
+                "prices": {
+                  "USD": "0.01"
+                },
+                "rate": "perRequestperMonth"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "region": "eu-ireland",
+        "types": [
+          {
+            "name": "ec2Monitoring",
+            "values": [
+              {
+                "prices": {
+                  "USD": "3.50"
+                }
+              }
+            ]
+          },
+          {
+            "name": "cwMetrics",
+            "values": [
+              {
+                "prices": {
+                  "USD": "0.50"
+                },
+                "rate": "perMetricperMonth"
+              }
+            ]
+          },
+          {
+            "name": "cwAlarms",
+            "values": [
+              {
+                "prices": {
+                  "USD": "0.10"
+                },
+                "rate": "perAlarmPerMonthAfter10Alarms"
+              }
+            ]
+          },
+          {
+            "name": "cwRequests",
+            "values": [
+              {
+                "prices": {
+                  "USD": "0.01"
+                },
+                "rate": "perRequestperMonth"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "region": "apac-sin",
+        "types": [
+          {
+            "name": "ec2Monitoring",
+            "values": [
+              {
+                "prices": {
+                  "USD": "3.50"
+                }
+              }
+            ]
+          },
+          {
+            "name": "cwMetrics",
+            "values": [
+              {
+                "prices": {
+                  "USD": "0.50"
+                },
+                "rate": "perMetricperMonth"
+              }
+            ]
+          },
+          {
+            "name": "cwAlarms",
+            "values": [
+              {
+                "prices": {
+                  "USD": "0.10"
+                },
+                "rate": "perAlarmPerMonthAfter10Alarms"
+              }
+            ]
+          },
+          {
+            "name": "cwRequests",
+            "values": [
+              {
+                "prices": {
+                  "USD": "0.01"
+                },
+                "rate": "perRequestperMonth"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "region": "apac-tokyo",
+        "types": [
+          {
+            "name": "ec2Monitoring",
+            "values": [
+              {
+                "prices": {
+                  "USD": "3.675"
+                }
+              }
+            ]
+          },
+          {
+            "name": "cwMetrics",
+            "values": [
+              {
+                "prices": {
+                  "USD": "0.525"
+                },
+                "rate": "perMetricperMonth"
+              }
+            ]
+          },
+          {
+            "name": "cwAlarms",
+            "values": [
+              {
+                "prices": {
+                  "USD": "0.10"
+                },
+                "rate": "perAlarmPerMonthAfter10Alarms"
+              }
+            ]
+          },
+          {
+            "name": "cwRequests",
+            "values": [
+              {
+                "prices": {
+                  "USD": "0.0105"
+                },
+                "rate": "perRequestperMonth"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "region": "apac-syd",
+        "types": [
+          {
+            "name": "ec2Monitoring",
+            "values": [
+              {
+                "prices": {
+                  "USD": "3.50"
+                }
+              }
+            ]
+          },
+          {
+            "name": "cwMetrics",
+            "values": [
+              {
+                "prices": {
+                  "USD": "0.50"
+                },
+                "rate": "perMetricperMonth"
+              }
+            ]
+          },
+          {
+            "name": "cwAlarms",
+            "values": [
+              {
+                "prices": {
+                  "USD": "0.10"
+                },
+                "rate": "perAlarmPerMonthAfter10Alarms"
+              }
+            ]
+          },
+          {
+            "name": "cwRequests",
+            "values": [
+              {
+                "prices": {
+                  "USD": "0.01"
+                },
+                "rate": "perRequestperMonth"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "region": "sa-east-1",
+        "types": [
+          {
+            "name": "ec2Monitoring",
+            "values": [
+              {
+                "prices": {
+                  "USD": "4.725"
+                }
+              }
+            ]
+          },
+          {
+            "name": "cwMetrics",
+            "values": [
+              {
+                "prices": {
+                  "USD": "0.675"
+                },
+                "rate": "perMetricperMonth"
+              }
+            ]
+          },
+          {
+            "name": "cwAlarms",
+            "values": [
+              {
+                "prices": {
+                  "USD": "0.135"
+                },
+                "rate": "perAlarmPerMonthAfter10Alarms"
+              }
+            ]
+          },
+          {
+            "name": "cwRequests",
+            "values": [
+              {
+                "prices": {
+                  "USD": "0.014"
+                },
+                "rate": "perRequestperMonth"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

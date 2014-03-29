@@ -1,0 +1,694 @@
+{
+  "vers": 0.01,
+  "config": {
+    "currencies": [
+      "USD"
+    ],
+    "valueColumns": [
+      "pricing"
+    ],
+    "rate": "perGB",
+    "regions": [
+      {
+        "region": "us-east",
+        "types": [
+          {
+            "name": "dataXferIn",
+            "tiers": [
+              {
+                "name": "allDataXferIn",
+                "prices": {
+                  "USD": "0.000"
+                }
+              }
+            ]
+          },
+          {
+            "name": "dataXferOut",
+            "tiers": [
+              {
+                "name": "firstGBout",
+                "prices": {
+                  "USD": "0.000"
+                }
+              },
+              {
+                "name": "upTo10TBout",
+                "prices": {
+                  "USD": "0.120"
+                }
+              },
+              {
+                "name": "next40TBout",
+                "prices": {
+                  "USD": "0.090"
+                }
+              },
+              {
+                "name": "next100TBout",
+                "prices": {
+                  "USD": "0.070"
+                }
+              },
+              {
+                "name": "next350TBout",
+                "prices": {
+                  "USD": "0.050"
+                }
+              },
+              {
+                "name": "next05PBout",
+                "prices": {
+                  "USD": "contactus"
+                }
+              },
+              {
+                "name": "next4PBout",
+                "prices": {
+                  "USD": "contactus"
+                }
+              },
+              {
+                "name": "greater5PBout",
+                "prices": {
+                  "USD": "contactus"
+                }
+              }
+            ]
+          }
+        ],
+        "azDataTransfer": {
+          "prices": {
+            "USD": "0.00"
+          }
+        },
+        "regionalDataTransfer": {
+          "prices": {
+            "USD": "0.01"
+          }
+        },
+        "elasticLBDataTransfer": {
+          "prices": {
+            "USD": "0.01"
+          },
+          "rate": "perGBin/out"
+        }
+      },
+      {
+        "region": "us-west-2",
+        "types": [
+          {
+            "name": "dataXferIn",
+            "tiers": [
+              {
+                "name": "allDataXferIn",
+                "prices": {
+                  "USD": "0.000"
+                }
+              }
+            ]
+          },
+          {
+            "name": "dataXferOut",
+            "tiers": [
+              {
+                "name": "firstGBout",
+                "prices": {
+                  "USD": "0.000"
+                }
+              },
+              {
+                "name": "upTo10TBout",
+                "prices": {
+                  "USD": "0.120"
+                }
+              },
+              {
+                "name": "next40TBout",
+                "prices": {
+                  "USD": "0.090"
+                }
+              },
+              {
+                "name": "next100TBout",
+                "prices": {
+                  "USD": "0.070"
+                }
+              },
+              {
+                "name": "next350TBout",
+                "prices": {
+                  "USD": "0.050"
+                }
+              },
+              {
+                "name": "next05PBout",
+                "prices": {
+                  "USD": "contactus"
+                }
+              },
+              {
+                "name": "next4PBout",
+                "prices": {
+                  "USD": "contactus"
+                }
+              },
+              {
+                "name": "greater5PBout",
+                "prices": {
+                  "USD": "contactus"
+                }
+              }
+            ]
+          }
+        ],
+        "azDataTransfer": {
+          "prices": {
+            "USD": "0.00"
+          }
+        },
+        "regionalDataTransfer": {
+          "prices": {
+            "USD": "0.01"
+          }
+        },
+        "elasticLBDataTransfer": {
+          "prices": {
+            "USD": "0.01"
+          },
+          "rate": "perGBin/out"
+        }
+      },
+      {
+        "region": "us-west",
+        "types": [
+          {
+            "name": "dataXferIn",
+            "tiers": [
+              {
+                "name": "allDataXferIn",
+                "prices": {
+                  "USD": "0.000"
+                }
+              }
+            ]
+          },
+          {
+            "name": "dataXferOut",
+            "tiers": [
+              {
+                "name": "firstGBout",
+                "prices": {
+                  "USD": "0.000"
+                }
+              },
+              {
+                "name": "upTo10TBout",
+                "prices": {
+                  "USD": "0.120"
+                }
+              },
+              {
+                "name": "next40TBout",
+                "prices": {
+                  "USD": "0.090"
+                }
+              },
+              {
+                "name": "next100TBout",
+                "prices": {
+                  "USD": "0.070"
+                }
+              },
+              {
+                "name": "next350TBout",
+                "prices": {
+                  "USD": "0.050"
+                }
+              },
+              {
+                "name": "next05PBout",
+                "prices": {
+                  "USD": "contactus"
+                }
+              },
+              {
+                "name": "next4PBout",
+                "prices": {
+                  "USD": "contactus"
+                }
+              },
+              {
+                "name": "greater5PBout",
+                "prices": {
+                  "USD": "contactus"
+                }
+              }
+            ]
+          }
+        ],
+        "azDataTransfer": {
+          "prices": {
+            "USD": "0.00"
+          }
+        },
+        "regionalDataTransfer": {
+          "prices": {
+            "USD": "0.01"
+          }
+        },
+        "elasticLBDataTransfer": {
+          "prices": {
+            "USD": "0.01"
+          },
+          "rate": "perGBin/out"
+        }
+      },
+      {
+        "region": "eu-ireland",
+        "types": [
+          {
+            "name": "dataXferIn",
+            "tiers": [
+              {
+                "name": "allDataXferIn",
+                "prices": {
+                  "USD": "0.000"
+                }
+              }
+            ]
+          },
+          {
+            "name": "dataXferOut",
+            "tiers": [
+              {
+                "name": "firstGBout",
+                "prices": {
+                  "USD": "0.000"
+                }
+              },
+              {
+                "name": "upTo10TBout",
+                "prices": {
+                  "USD": "0.120"
+                }
+              },
+              {
+                "name": "next40TBout",
+                "prices": {
+                  "USD": "0.090"
+                }
+              },
+              {
+                "name": "next100TBout",
+                "prices": {
+                  "USD": "0.070"
+                }
+              },
+              {
+                "name": "next350TBout",
+                "prices": {
+                  "USD": "0.050"
+                }
+              },
+              {
+                "name": "next05PBout",
+                "prices": {
+                  "USD": "contactus"
+                }
+              },
+              {
+                "name": "next4PBout",
+                "prices": {
+                  "USD": "contactus"
+                }
+              },
+              {
+                "name": "greater5PBout",
+                "prices": {
+                  "USD": "contactus"
+                }
+              }
+            ]
+          }
+        ],
+        "azDataTransfer": {
+          "prices": {
+            "USD": "0.00"
+          }
+        },
+        "regionalDataTransfer": {
+          "prices": {
+            "USD": "0.01"
+          }
+        },
+        "elasticLBDataTransfer": {
+          "prices": {
+            "USD": "0.01"
+          },
+          "rate": "perGBin/out"
+        }
+      },
+      {
+        "region": "apac-sin",
+        "types": [
+          {
+            "name": "dataXferIn",
+            "tiers": [
+              {
+                "name": "allDataXferIn",
+                "prices": {
+                  "USD": "0.000"
+                }
+              }
+            ]
+          },
+          {
+            "name": "dataXferOut",
+            "tiers": [
+              {
+                "name": "firstGBout",
+                "prices": {
+                  "USD": "0.000"
+                }
+              },
+              {
+                "name": "upTo10TBout",
+                "prices": {
+                  "USD": "0.190"
+                }
+              },
+              {
+                "name": "next40TBout",
+                "prices": {
+                  "USD": "0.150"
+                }
+              },
+              {
+                "name": "next100TBout",
+                "prices": {
+                  "USD": "0.130"
+                }
+              },
+              {
+                "name": "next350TBout",
+                "prices": {
+                  "USD": "0.120"
+                }
+              },
+              {
+                "name": "next05PBout",
+                "prices": {
+                  "USD": "contactus"
+                }
+              },
+              {
+                "name": "next4PBout",
+                "prices": {
+                  "USD": "contactus"
+                }
+              },
+              {
+                "name": "greater5PBout",
+                "prices": {
+                  "USD": "contactus"
+                }
+              }
+            ]
+          }
+        ],
+        "azDataTransfer": {
+          "prices": {
+            "USD": "0.00"
+          }
+        },
+        "regionalDataTransfer": {
+          "prices": {
+            "USD": "0.01"
+          }
+        },
+        "elasticLBDataTransfer": {
+          "prices": {
+            "USD": "0.01"
+          },
+          "rate": "perGBin/out"
+        }
+      },
+      {
+        "region": "apac-tokyo",
+        "types": [
+          {
+            "name": "dataXferIn",
+            "tiers": [
+              {
+                "name": "allDataXferIn",
+                "prices": {
+                  "USD": "0.000"
+                }
+              }
+            ]
+          },
+          {
+            "name": "dataXferOut",
+            "tiers": [
+              {
+                "name": "firstGBout",
+                "prices": {
+                  "USD": "0.000"
+                }
+              },
+              {
+                "name": "upTo10TBout",
+                "prices": {
+                  "USD": "0.201"
+                }
+              },
+              {
+                "name": "next40TBout",
+                "prices": {
+                  "USD": "0.158"
+                }
+              },
+              {
+                "name": "next100TBout",
+                "prices": {
+                  "USD": "0.137"
+                }
+              },
+              {
+                "name": "next350TBout",
+                "prices": {
+                  "USD": "0.127"
+                }
+              },
+              {
+                "name": "next05PBout",
+                "prices": {
+                  "USD": "contactus"
+                }
+              },
+              {
+                "name": "next4PBout",
+                "prices": {
+                  "USD": "contactus"
+                }
+              },
+              {
+                "name": "greater5PBout",
+                "prices": {
+                  "USD": "contactus"
+                }
+              }
+            ]
+          }
+        ],
+        "azDataTransfer": {
+          "prices": {
+            "USD": "0.00"
+          }
+        },
+        "regionalDataTransfer": {
+          "prices": {
+            "USD": "0.01"
+          }
+        },
+        "elasticLBDataTransfer": {
+          "prices": {
+            "USD": "0.01"
+          },
+          "rate": "perGBin/out"
+        }
+      },
+      {
+        "region": "apac-syd",
+        "types": [
+          {
+            "name": "dataXferIn",
+            "tiers": [
+              {
+                "name": "allDataXferIn",
+                "prices": {
+                  "USD": "0.000"
+                }
+              }
+            ]
+          },
+          {
+            "name": "dataXferOut",
+            "tiers": [
+              {
+                "name": "firstGBout",
+                "prices": {
+                  "USD": "0.000"
+                }
+              },
+              {
+                "name": "upTo10TBout",
+                "prices": {
+                  "USD": "0.120"
+                }
+              },
+              {
+                "name": "next40TBout",
+                "prices": {
+                  "USD": "0.090"
+                }
+              },
+              {
+                "name": "next100TBout",
+                "prices": {
+                  "USD": "0.070"
+                }
+              },
+              {
+                "name": "next350TBout",
+                "prices": {
+                  "USD": "0.050"
+                }
+              },
+              {
+                "name": "next05PBout",
+                "prices": {
+                  "USD": "contactus"
+                }
+              },
+              {
+                "name": "next4PBout",
+                "prices": {
+                  "USD": "contactus"
+                }
+              },
+              {
+                "name": "greater5PBout",
+                "prices": {
+                  "USD": "contactus"
+                }
+              }
+            ]
+          }
+        ],
+        "azDataTransfer": {
+          "prices": {
+            "USD": "0.00"
+          }
+        },
+        "regionalDataTransfer": {
+          "prices": {
+            "USD": "0.01"
+          }
+        },
+        "elasticLBDataTransfer": {
+          "prices": {
+            "USD": "0.01"
+          },
+          "rate": "perGBin/out"
+        }
+      },
+      {
+        "region": "sa-east-1",
+        "types": [
+          {
+            "name": "dataXferIn",
+            "tiers": [
+              {
+                "name": "allDataXferIn",
+                "prices": {
+                  "USD": "0.00"
+                }
+              }
+            ]
+          },
+          {
+            "name": "dataXferOut",
+            "tiers": [
+              {
+                "name": "firstGBout",
+                "prices": {
+                  "USD": "0.00"
+                }
+              },
+              {
+                "name": "upTo10TBout",
+                "prices": {
+                  "USD": "0.25"
+                }
+              },
+              {
+                "name": "next40TBout",
+                "prices": {
+                  "USD": "0.23"
+                }
+              },
+              {
+                "name": "next100TBout",
+                "prices": {
+                  "USD": "0.21"
+                }
+              },
+              {
+                "name": "next350TBout",
+                "prices": {
+                  "USD": "0.19"
+                }
+              },
+              {
+                "name": "next05PBout",
+                "prices": {
+                  "USD": "contactus"
+                }
+              },
+              {
+                "name": "next4PBout",
+                "prices": {
+                  "USD": "contactus"
+                }
+              },
+              {
+                "name": "greater5PBout",
+                "prices": {
+                  "USD": "contactus"
+                }
+              }
+            ]
+          }
+        ],
+        "azDataTransfer": {
+          "prices": {
+            "USD": "0.00"
+          }
+        },
+        "regionalDataTransfer": {
+          "prices": {
+            "USD": "0.01"
+          }
+        },
+        "elasticLBDataTransfer": {
+          "prices": {
+            "USD": "0.01"
+          },
+          "rate": "perGBin/out"
+        }
+      }
+    ]
+  }
+}

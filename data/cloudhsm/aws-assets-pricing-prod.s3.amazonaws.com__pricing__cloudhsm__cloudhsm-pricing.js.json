@@ -1,0 +1,194 @@
+{
+  "vers": 0.01,
+  "config": {
+    "regions": [
+      {
+        "instanceTypes": [
+          {
+            "sizes": [
+              {
+                "size": "safeNetLunaSA",
+                "valueColumns": [
+                  {
+                    "prices": {
+                      "USD": "5,000"
+                    },
+                    "name": "upFront"
+                  },
+                  {
+                    "prices": {
+                      "USD": "1.88"
+                    },
+                    "name": "hourly",
+                    "rate": "perhr"
+                  }
+                ]
+              },
+              {
+                "size": "",
+                "valueColumns": [
+                  {
+                    "prices": {
+                      "USD": ""
+                    },
+                    "name": "upFront"
+                  },
+                  {
+                    "prices": {
+                      "USD": "1,373"
+                    },
+                    "name": "hourly",
+                    "rate": "perMoAverage"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "region": "us-east"
+      },
+      {
+        "instanceTypes": [
+          {
+            "sizes": [
+              {
+                "size": "safeNetLunaSA",
+                "valueColumns": [
+                  {
+                    "prices": {
+                      "USD": "5,000"
+                    },
+                    "name": "upFront"
+                  },
+                  {
+                    "prices": {
+                      "USD": "1.88"
+                    },
+                    "name": "hourly",
+                    "rate": "perhr"
+                  }
+                ]
+              },
+              {
+                "size": "",
+                "valueColumns": [
+                  {
+                    "prices": {
+                      "USD": ""
+                    },
+                    "name": "upFront"
+                  },
+                  {
+                    "prices": {
+                      "USD": "1,373"
+                    },
+                    "name": "hourly",
+                    "rate": "perMoAverage"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "region": "us-west-2"
+      },
+      {
+        "instanceTypes": [
+          {
+            "sizes": [
+              {
+                "size": "safeNetLunaSA",
+                "valueColumns": [
+                  {
+                    "prices": {
+                      "USD": "5,000"
+                    },
+                    "name": "upFront"
+                  },
+                  {
+                    "prices": {
+                      "USD": "1.96"
+                    },
+                    "name": "hourly",
+                    "rate": "perhr"
+                  }
+                ]
+              },
+              {
+                "size": "",
+                "valueColumns": [
+                  {
+                    "prices": {
+                      "USD": ""
+                    },
+                    "name": "upFront"
+                  },
+                  {
+                    "prices": {
+                      "USD": "1,431"
+                    },
+                    "name": "hourly",
+                    "rate": "perMoAverage"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "region": "eu-ireland"
+      },
+      {
+        "instanceTypes": [
+          {
+            "sizes": [
+              {
+                "size": "safeNetLunaSA",
+                "valueColumns": [
+                  {
+                    "prices": {
+                      "USD": "5,000"
+                    },
+                    "name": "upFront"
+                  },
+                  {
+                    "prices": {
+                      "USD": "2.24"
+                    },
+                    "name": "hourly",
+                    "rate": "perhr"
+                  }
+                ]
+              },
+              {
+                "size": "",
+                "valueColumns": [
+                  {
+                    "prices": {
+                      "USD": ""
+                    },
+                    "name": "upFront"
+                  },
+                  {
+                    "prices": {
+                      "USD": "1,635"
+                    },
+                    "name": "hourly",
+                    "rate": "perMoAverage"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "region": "apac-syd"
+      }
+    ],
+    "currencies": [
+      "USD"
+    ],
+    "valueColumns": [
+      "upFront",
+      "hourly"
+    ]
+  }
+}

@@ -1,0 +1,6088 @@
+{
+  "vers": 0.01,
+  "config": {
+    "regions": [
+      {
+        "instanceTypes": [
+          {
+            "type": "Single-AZ Deployment (Reserved)",
+            "tiers": [
+              {
+                "valueColumns": [
+                  {
+                    "prices": {
+                      "USD": "54"
+                    },
+                    "name": "yrTerm1"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.010"
+                    },
+                    "name": "yrTerm1Hourly",
+                    "rate": "perhr"
+                  },
+                  {
+                    "prices": {
+                      "USD": "82"
+                    },
+                    "name": "yrTerm3"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.010"
+                    },
+                    "name": "yrTerm3Hourly",
+                    "rate": "perhr"
+                  }
+                ],
+                "size": "db.t1.micro"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "prices": {
+                      "USD": "259"
+                    },
+                    "name": "yrTerm1"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.061"
+                    },
+                    "name": "yrTerm1Hourly",
+                    "rate": "perhr"
+                  },
+                  {
+                    "prices": {
+                      "USD": "408"
+                    },
+                    "name": "yrTerm3"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.046"
+                    },
+                    "name": "yrTerm3Hourly",
+                    "rate": "perhr"
+                  }
+                ],
+                "size": "db.m3.medium"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "prices": {
+                      "USD": "517"
+                    },
+                    "name": "yrTerm1"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.124"
+                    },
+                    "name": "yrTerm1Hourly",
+                    "rate": "perhr"
+                  },
+                  {
+                    "prices": {
+                      "USD": "816"
+                    },
+                    "name": "yrTerm3"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.093"
+                    },
+                    "name": "yrTerm3Hourly",
+                    "rate": "perhr"
+                  }
+                ],
+                "size": "db.m3.large"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "prices": {
+                      "USD": "1034"
+                    },
+                    "name": "yrTerm1"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.247"
+                    },
+                    "name": "yrTerm1Hourly",
+                    "rate": "perhr"
+                  },
+                  {
+                    "prices": {
+                      "USD": "1631"
+                    },
+                    "name": "yrTerm3"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.185"
+                    },
+                    "name": "yrTerm3Hourly",
+                    "rate": "perhr"
+                  }
+                ],
+                "size": "db.m3.xlarge"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "prices": {
+                      "USD": "2069"
+                    },
+                    "name": "yrTerm1"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.493"
+                    },
+                    "name": "yrTerm1Hourly",
+                    "rate": "perhr"
+                  },
+                  {
+                    "prices": {
+                      "USD": "3,262"
+                    },
+                    "name": "yrTerm3"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.369"
+                    },
+                    "name": "yrTerm3Hourly",
+                    "rate": "perhr"
+                  }
+                ],
+                "size": "db.m3.2xlarge"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "name": "yrTerm1",
+                    "prices": {
+                      "USD": "139"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm1Hourly",
+                    "prices": {
+                      "USD": "0.033"
+                    }
+                  },
+                  {
+                    "name": "yrTerm3",
+                    "prices": {
+                      "USD": "215"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm3Hourly",
+                    "prices": {
+                      "USD": "0.025"
+                    }
+                  }
+                ],
+                "size": "db.m1.small"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "name": "yrTerm1",
+                    "prices": {
+                      "USD": "277"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm1Hourly",
+                    "prices": {
+                      "USD": "0.067"
+                    }
+                  },
+                  {
+                    "name": "yrTerm3",
+                    "prices": {
+                      "USD": "430"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm3Hourly",
+                    "prices": {
+                      "USD": "0.049"
+                    }
+                  }
+                ],
+                "size": "db.m1.medium"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "name": "yrTerm1",
+                    "prices": {
+                      "USD": "554"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm1Hourly",
+                    "prices": {
+                      "USD": "0.133"
+                    }
+                  },
+                  {
+                    "name": "yrTerm3",
+                    "prices": {
+                      "USD": "860"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm3Hourly",
+                    "prices": {
+                      "USD": "0.100"
+                    }
+                  }
+                ],
+                "size": "db.m1.large"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "name": "yrTerm1",
+                    "prices": {
+                      "USD": "1,108"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm1Hourly",
+                    "prices": {
+                      "USD": "0.266"
+                    }
+                  },
+                  {
+                    "name": "yrTerm3",
+                    "prices": {
+                      "USD": "1,720"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm3Hourly",
+                    "prices": {
+                      "USD": "0.199"
+                    }
+                  }
+                ],
+                "size": "db.m1.xlarge"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "name": "yrTerm1",
+                    "prices": {
+                      "USD": "651"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm1Hourly",
+                    "prices": {
+                      "USD": "0.166"
+                    }
+                  },
+                  {
+                    "name": "yrTerm3",
+                    "prices": {
+                      "USD": "992"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm3Hourly",
+                    "prices": {
+                      "USD": "0.122"
+                    }
+                  }
+                ],
+                "size": "db.m2.xlarge"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "name": "yrTerm1",
+                    "prices": {
+                      "USD": "1,302"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm1Hourly",
+                    "prices": {
+                      "USD": "0.331"
+                    }
+                  },
+                  {
+                    "name": "yrTerm3",
+                    "prices": {
+                      "USD": "1,984"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm3Hourly",
+                    "prices": {
+                      "USD": "0.243"
+                    }
+                  }
+                ],
+                "size": "db.m2.2xlarge"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "name": "yrTerm1",
+                    "prices": {
+                      "USD": "2,604"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm1Hourly",
+                    "prices": {
+                      "USD": "0.661"
+                    }
+                  },
+                  {
+                    "name": "yrTerm3",
+                    "prices": {
+                      "USD": "3,968"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm3Hourly",
+                    "prices": {
+                      "USD": "0.485"
+                    }
+                  }
+                ],
+                "size": "db.m2.4xlarge"
+              }
+            ]
+          },
+          {
+            "type": "multiAZdeployRes",
+            "tiers": [
+              {
+                "valueColumns": [
+                  {
+                    "prices": {
+                      "USD": "92"
+                    },
+                    "name": "yrTerm1"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.017"
+                    },
+                    "name": "yrTerm1Hourly",
+                    "rate": "perhr"
+                  },
+                  {
+                    "prices": {
+                      "USD": "139"
+                    },
+                    "name": "yrTerm3"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.017"
+                    },
+                    "name": "yrTerm3Hourly",
+                    "rate": "perhr"
+                  }
+                ],
+                "size": "db.t1.micro"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "prices": {
+                      "USD": "440"
+                    },
+                    "name": "yrTerm1"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.104"
+                    },
+                    "name": "yrTerm1Hourly",
+                    "rate": "perhr"
+                  },
+                  {
+                    "prices": {
+                      "USD": "694"
+                    },
+                    "name": "yrTerm3"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.078"
+                    },
+                    "name": "yrTerm3Hourly",
+                    "rate": "perhr"
+                  }
+                ],
+                "size": "db.m3.medium"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "prices": {
+                      "USD": "879"
+                    },
+                    "name": "yrTerm1"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.211"
+                    },
+                    "name": "yrTerm1Hourly",
+                    "rate": "perhr"
+                  },
+                  {
+                    "prices": {
+                      "USD": "1,387"
+                    },
+                    "name": "yrTerm3"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.158"
+                    },
+                    "name": "yrTerm3Hourly",
+                    "rate": "perhr"
+                  }
+                ],
+                "size": "db.m3.large"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "prices": {
+                      "USD": "1758"
+                    },
+                    "name": "yrTerm1"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.420"
+                    },
+                    "name": "yrTerm1Hourly",
+                    "rate": "perhr"
+                  },
+                  {
+                    "prices": {
+                      "USD": "2,773"
+                    },
+                    "name": "yrTerm3"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.315"
+                    },
+                    "name": "yrTerm3Hourly",
+                    "rate": "perhr"
+                  }
+                ],
+                "size": "db.m3.xlarge"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "prices": {
+                      "USD": "3,517"
+                    },
+                    "name": "yrTerm1"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.838"
+                    },
+                    "name": "yrTerm1Hourly",
+                    "rate": "perhr"
+                  },
+                  {
+                    "prices": {
+                      "USD": "5,545"
+                    },
+                    "name": "yrTerm3"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.627"
+                    },
+                    "name": "yrTerm3Hourly",
+                    "rate": "perhr"
+                  }
+                ],
+                "size": "db.m3.2xlarge"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "name": "yrTerm1",
+                    "prices": {
+                      "USD": "236"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm1Hourly",
+                    "prices": {
+                      "USD": "0.056"
+                    }
+                  },
+                  {
+                    "name": "yrTerm3",
+                    "prices": {
+                      "USD": "366"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm3Hourly",
+                    "prices": {
+                      "USD": "0.043"
+                    }
+                  }
+                ],
+                "size": "db.m1.small"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "name": "yrTerm1",
+                    "prices": {
+                      "USD": "471"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm1Hourly",
+                    "prices": {
+                      "USD": "0.114"
+                    }
+                  },
+                  {
+                    "name": "yrTerm3",
+                    "prices": {
+                      "USD": "731"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm3Hourly",
+                    "prices": {
+                      "USD": "0.083"
+                    }
+                  }
+                ],
+                "size": "db.m1.medium"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "name": "yrTerm1",
+                    "prices": {
+                      "USD": "942"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm1Hourly",
+                    "prices": {
+                      "USD": "0.226"
+                    }
+                  },
+                  {
+                    "name": "yrTerm3",
+                    "prices": {
+                      "USD": "1,462"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm3Hourly",
+                    "prices": {
+                      "USD": "0.170"
+                    }
+                  }
+                ],
+                "size": "db.m1.large"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "name": "yrTerm1",
+                    "prices": {
+                      "USD": "1,884"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm1Hourly",
+                    "prices": {
+                      "USD": "0.452"
+                    }
+                  },
+                  {
+                    "name": "yrTerm3",
+                    "prices": {
+                      "USD": "2,924"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm3Hourly",
+                    "prices": {
+                      "USD": "0.338"
+                    }
+                  }
+                ],
+                "size": "db.m1.xlarge"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "name": "yrTerm1",
+                    "prices": {
+                      "USD": "1,107"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm1Hourly",
+                    "prices": {
+                      "USD": "0.282"
+                    }
+                  },
+                  {
+                    "name": "yrTerm3",
+                    "prices": {
+                      "USD": "1,686"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm3Hourly",
+                    "prices": {
+                      "USD": "0.207"
+                    }
+                  }
+                ],
+                "size": "db.m2.xlarge"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "name": "yrTerm1",
+                    "prices": {
+                      "USD": "2,213"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm1Hourly",
+                    "prices": {
+                      "USD": "0.563"
+                    }
+                  },
+                  {
+                    "name": "yrTerm3",
+                    "prices": {
+                      "USD": "3,373"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm3Hourly",
+                    "prices": {
+                      "USD": "0.413"
+                    }
+                  }
+                ],
+                "size": "db.m2.2xlarge"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "name": "yrTerm1",
+                    "prices": {
+                      "USD": "4,427"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm1Hourly",
+                    "prices": {
+                      "USD": "1.124"
+                    }
+                  },
+                  {
+                    "name": "yrTerm3",
+                    "prices": {
+                      "USD": "6,746"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm3Hourly",
+                    "prices": {
+                      "USD": "0.825"
+                    }
+                  }
+                ],
+                "size": "db.m2.4xlarge"
+              }
+            ]
+          }
+        ],
+        "region": "us-east"
+      },
+      {
+        "instanceTypes": [
+          {
+            "type": "Single-AZ Deployment (Reserved)",
+            "tiers": [
+              {
+                "valueColumns": [
+                  {
+                    "prices": {
+                      "USD": "54"
+                    },
+                    "name": "yrTerm1"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.010"
+                    },
+                    "name": "yrTerm1Hourly",
+                    "rate": "perhr"
+                  },
+                  {
+                    "prices": {
+                      "USD": "82"
+                    },
+                    "name": "yrTerm3"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.010"
+                    },
+                    "name": "yrTerm3Hourly",
+                    "rate": "perhr"
+                  }
+                ],
+                "size": "db.t1.micro"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "prices": {
+                      "USD": "259"
+                    },
+                    "name": "yrTerm1"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.061"
+                    },
+                    "name": "yrTerm1Hourly",
+                    "rate": "perhr"
+                  },
+                  {
+                    "prices": {
+                      "USD": "408"
+                    },
+                    "name": "yrTerm3"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.046"
+                    },
+                    "name": "yrTerm3Hourly",
+                    "rate": "perhr"
+                  }
+                ],
+                "size": "db.m3.medium"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "prices": {
+                      "USD": "517"
+                    },
+                    "name": "yrTerm1"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.124"
+                    },
+                    "name": "yrTerm1Hourly",
+                    "rate": "perhr"
+                  },
+                  {
+                    "prices": {
+                      "USD": "816"
+                    },
+                    "name": "yrTerm3"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.093"
+                    },
+                    "name": "yrTerm3Hourly",
+                    "rate": "perhr"
+                  }
+                ],
+                "size": "db.m3.large"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "prices": {
+                      "USD": "1034"
+                    },
+                    "name": "yrTerm1"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.247"
+                    },
+                    "name": "yrTerm1Hourly",
+                    "rate": "perhr"
+                  },
+                  {
+                    "prices": {
+                      "USD": "1,631"
+                    },
+                    "name": "yrTerm3"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.185"
+                    },
+                    "name": "yrTerm3Hourly",
+                    "rate": "perhr"
+                  }
+                ],
+                "size": "db.m3.xlarge"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "prices": {
+                      "USD": "2,069"
+                    },
+                    "name": "yrTerm1"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.493"
+                    },
+                    "name": "yrTerm1Hourly",
+                    "rate": "perhr"
+                  },
+                  {
+                    "prices": {
+                      "USD": "3,262"
+                    },
+                    "name": "yrTerm3"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.369"
+                    },
+                    "name": "yrTerm3Hourly",
+                    "rate": "perhr"
+                  }
+                ],
+                "size": "db.m3.2xlarge"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "name": "yrTerm1",
+                    "prices": {
+                      "USD": "139"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm1Hourly",
+                    "prices": {
+                      "USD": "0.033"
+                    }
+                  },
+                  {
+                    "name": "yrTerm3",
+                    "prices": {
+                      "USD": "215"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm3Hourly",
+                    "prices": {
+                      "USD": "0.025"
+                    }
+                  }
+                ],
+                "size": "db.m1.small"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "name": "yrTerm1",
+                    "prices": {
+                      "USD": "277"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm1Hourly",
+                    "prices": {
+                      "USD": "0.067"
+                    }
+                  },
+                  {
+                    "name": "yrTerm3",
+                    "prices": {
+                      "USD": "430"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm3Hourly",
+                    "prices": {
+                      "USD": "0.049"
+                    }
+                  }
+                ],
+                "size": "db.m1.medium"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "name": "yrTerm1",
+                    "prices": {
+                      "USD": "554"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm1Hourly",
+                    "prices": {
+                      "USD": "0.133"
+                    }
+                  },
+                  {
+                    "name": "yrTerm3",
+                    "prices": {
+                      "USD": "860"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm3Hourly",
+                    "prices": {
+                      "USD": "0.100"
+                    }
+                  }
+                ],
+                "size": "db.m1.large"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "name": "yrTerm1",
+                    "prices": {
+                      "USD": "1,108"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm1Hourly",
+                    "prices": {
+                      "USD": "0.266"
+                    }
+                  },
+                  {
+                    "name": "yrTerm3",
+                    "prices": {
+                      "USD": "1,720"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm3Hourly",
+                    "prices": {
+                      "USD": "0.199"
+                    }
+                  }
+                ],
+                "size": "db.m1.xlarge"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "name": "yrTerm1",
+                    "prices": {
+                      "USD": "651"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm1Hourly",
+                    "prices": {
+                      "USD": "0.166"
+                    }
+                  },
+                  {
+                    "name": "yrTerm3",
+                    "prices": {
+                      "USD": "992"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm3Hourly",
+                    "prices": {
+                      "USD": "0.122"
+                    }
+                  }
+                ],
+                "size": "db.m2.xlarge"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "name": "yrTerm1",
+                    "prices": {
+                      "USD": "1,302"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm1Hourly",
+                    "prices": {
+                      "USD": "0.331"
+                    }
+                  },
+                  {
+                    "name": "yrTerm3",
+                    "prices": {
+                      "USD": "1,984"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm3Hourly",
+                    "prices": {
+                      "USD": "0.243"
+                    }
+                  }
+                ],
+                "size": "db.m2.2xlarge"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "name": "yrTerm1",
+                    "prices": {
+                      "USD": "2,604"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm1Hourly",
+                    "prices": {
+                      "USD": "0.661"
+                    }
+                  },
+                  {
+                    "name": "yrTerm3",
+                    "prices": {
+                      "USD": "3,968"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm3Hourly",
+                    "prices": {
+                      "USD": "0.485"
+                    }
+                  }
+                ],
+                "size": "db.m2.4xlarge"
+              }
+            ]
+          },
+          {
+            "type": "multiAZdeployRes",
+            "tiers": [
+              {
+                "valueColumns": [
+                  {
+                    "prices": {
+                      "USD": "92"
+                    },
+                    "name": "yrTerm1"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.017"
+                    },
+                    "name": "yrTerm1Hourly",
+                    "rate": "perhr"
+                  },
+                  {
+                    "prices": {
+                      "USD": "139"
+                    },
+                    "name": "yrTerm3"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.017"
+                    },
+                    "name": "yrTerm3Hourly",
+                    "rate": "perhr"
+                  }
+                ],
+                "size": "db.t1.micro"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "prices": {
+                      "USD": "440"
+                    },
+                    "name": "yrTerm1"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.104"
+                    },
+                    "name": "yrTerm1Hourly",
+                    "rate": "perhr"
+                  },
+                  {
+                    "prices": {
+                      "USD": "694"
+                    },
+                    "name": "yrTerm3"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.078"
+                    },
+                    "name": "yrTerm3Hourly",
+                    "rate": "perhr"
+                  }
+                ],
+                "size": "db.m3.medium"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "prices": {
+                      "USD": "879"
+                    },
+                    "name": "yrTerm1"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.211"
+                    },
+                    "name": "yrTerm1Hourly",
+                    "rate": "perhr"
+                  },
+                  {
+                    "prices": {
+                      "USD": "1,387"
+                    },
+                    "name": "yrTerm3"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.158"
+                    },
+                    "name": "yrTerm3Hourly",
+                    "rate": "perhr"
+                  }
+                ],
+                "size": "db.m3.large"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "prices": {
+                      "USD": "1,758"
+                    },
+                    "name": "yrTerm1"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.420"
+                    },
+                    "name": "yrTerm1Hourly",
+                    "rate": "perhr"
+                  },
+                  {
+                    "prices": {
+                      "USD": "2,773"
+                    },
+                    "name": "yrTerm3"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.315"
+                    },
+                    "name": "yrTerm3Hourly",
+                    "rate": "perhr"
+                  }
+                ],
+                "size": "db.m3.xlarge"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "prices": {
+                      "USD": "3,517"
+                    },
+                    "name": "yrTerm1"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.838"
+                    },
+                    "name": "yrTerm1Hourly",
+                    "rate": "perhr"
+                  },
+                  {
+                    "prices": {
+                      "USD": "5,545"
+                    },
+                    "name": "yrTerm3"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.627"
+                    },
+                    "name": "yrTerm3Hourly",
+                    "rate": "perhr"
+                  }
+                ],
+                "size": "db.m3.2xlarge"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "name": "yrTerm1",
+                    "prices": {
+                      "USD": "236"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm1Hourly",
+                    "prices": {
+                      "USD": "0.056"
+                    }
+                  },
+                  {
+                    "name": "yrTerm3",
+                    "prices": {
+                      "USD": "366"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm3Hourly",
+                    "prices": {
+                      "USD": "0.043"
+                    }
+                  }
+                ],
+                "size": "db.m1.small"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "name": "yrTerm1",
+                    "prices": {
+                      "USD": "471"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm1Hourly",
+                    "prices": {
+                      "USD": "0.114"
+                    }
+                  },
+                  {
+                    "name": "yrTerm3",
+                    "prices": {
+                      "USD": "731"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm3Hourly",
+                    "prices": {
+                      "USD": "0.083"
+                    }
+                  }
+                ],
+                "size": "db.m1.medium"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "name": "yrTerm1",
+                    "prices": {
+                      "USD": "942"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm1Hourly",
+                    "prices": {
+                      "USD": "0.226"
+                    }
+                  },
+                  {
+                    "name": "yrTerm3",
+                    "prices": {
+                      "USD": "1,462"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm3Hourly",
+                    "prices": {
+                      "USD": "0.170"
+                    }
+                  }
+                ],
+                "size": "db.m1.large"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "name": "yrTerm1",
+                    "prices": {
+                      "USD": "1,884"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm1Hourly",
+                    "prices": {
+                      "USD": "0.452"
+                    }
+                  },
+                  {
+                    "name": "yrTerm3",
+                    "prices": {
+                      "USD": "2,924"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm3Hourly",
+                    "prices": {
+                      "USD": "0.338"
+                    }
+                  }
+                ],
+                "size": "db.m1.xlarge"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "name": "yrTerm1",
+                    "prices": {
+                      "USD": "1,107"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm1Hourly",
+                    "prices": {
+                      "USD": "0.282"
+                    }
+                  },
+                  {
+                    "name": "yrTerm3",
+                    "prices": {
+                      "USD": "1,686"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm3Hourly",
+                    "prices": {
+                      "USD": "0.207"
+                    }
+                  }
+                ],
+                "size": "db.m2.xlarge"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "name": "yrTerm1",
+                    "prices": {
+                      "USD": "2,213"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm1Hourly",
+                    "prices": {
+                      "USD": "0.563"
+                    }
+                  },
+                  {
+                    "name": "yrTerm3",
+                    "prices": {
+                      "USD": "3,373"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm3Hourly",
+                    "prices": {
+                      "USD": "0.413"
+                    }
+                  }
+                ],
+                "size": "db.m2.2xlarge"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "name": "yrTerm1",
+                    "prices": {
+                      "USD": "4,427"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm1Hourly",
+                    "prices": {
+                      "USD": "1.124"
+                    }
+                  },
+                  {
+                    "name": "yrTerm3",
+                    "prices": {
+                      "USD": "6,746"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm3Hourly",
+                    "prices": {
+                      "USD": "0.825"
+                    }
+                  }
+                ],
+                "size": "db.m2.4xlarge"
+              }
+            ]
+          }
+        ],
+        "region": "us-west-2"
+      },
+      {
+        "instanceTypes": [
+          {
+            "type": "Single-AZ Deployment (Reserved)",
+            "tiers": [
+              {
+                "valueColumns": [
+                  {
+                    "prices": {
+                      "USD": "54"
+                    },
+                    "name": "yrTerm1"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.014"
+                    },
+                    "name": "yrTerm1Hourly",
+                    "rate": "perhr"
+                  },
+                  {
+                    "prices": {
+                      "USD": "82"
+                    },
+                    "name": "yrTerm3"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.014"
+                    },
+                    "name": "yrTerm3Hourly",
+                    "rate": "perhr"
+                  }
+                ],
+                "size": "db.t1.micro"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "prices": {
+                      "USD": "259"
+                    },
+                    "name": "yrTerm1"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.073"
+                    },
+                    "name": "yrTerm1Hourly",
+                    "rate": "perhr"
+                  },
+                  {
+                    "prices": {
+                      "USD": "408"
+                    },
+                    "name": "yrTerm3"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.057"
+                    },
+                    "name": "yrTerm3Hourly",
+                    "rate": "perhr"
+                  }
+                ],
+                "size": "db.m3.medium"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "prices": {
+                      "USD": "517"
+                    },
+                    "name": "yrTerm1"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.151"
+                    },
+                    "name": "yrTerm1Hourly",
+                    "rate": "perhr"
+                  },
+                  {
+                    "prices": {
+                      "USD": "816"
+                    },
+                    "name": "yrTerm3"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.116"
+                    },
+                    "name": "yrTerm3Hourly",
+                    "rate": "perhr"
+                  }
+                ],
+                "size": "db.m3.large"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "prices": {
+                      "USD": "1,034"
+                    },
+                    "name": "yrTerm1"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.298"
+                    },
+                    "name": "yrTerm1Hourly",
+                    "rate": "perhr"
+                  },
+                  {
+                    "prices": {
+                      "USD": "1,631"
+                    },
+                    "name": "yrTerm3"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.230"
+                    },
+                    "name": "yrTerm3Hourly",
+                    "rate": "perhr"
+                  }
+                ],
+                "size": "db.m3.xlarge"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "prices": {
+                      "USD": "2,069"
+                    },
+                    "name": "yrTerm1"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.593"
+                    },
+                    "name": "yrTerm1Hourly",
+                    "rate": "perhr"
+                  },
+                  {
+                    "prices": {
+                      "USD": "3,262"
+                    },
+                    "name": "yrTerm3"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.459"
+                    },
+                    "name": "yrTerm3Hourly",
+                    "rate": "perhr"
+                  }
+                ],
+                "size": "db.m3.2xlarge"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "name": "yrTerm1",
+                    "prices": {
+                      "USD": "139"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm1Hourly",
+                    "prices": {
+                      "USD": "0.040"
+                    }
+                  },
+                  {
+                    "name": "yrTerm3",
+                    "prices": {
+                      "USD": "215"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm3Hourly",
+                    "prices": {
+                      "USD": "0.031"
+                    }
+                  }
+                ],
+                "size": "db.m1.small"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "name": "yrTerm1",
+                    "prices": {
+                      "USD": "277"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm1Hourly",
+                    "prices": {
+                      "USD": "0.080"
+                    }
+                  },
+                  {
+                    "name": "yrTerm3",
+                    "prices": {
+                      "USD": "430"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm3Hourly",
+                    "prices": {
+                      "USD": "0.063"
+                    }
+                  }
+                ],
+                "size": "db.m1.medium"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "name": "yrTerm1",
+                    "prices": {
+                      "USD": "554"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm1Hourly",
+                    "prices": {
+                      "USD": "0.161"
+                    }
+                  },
+                  {
+                    "name": "yrTerm3",
+                    "prices": {
+                      "USD": "860"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm3Hourly",
+                    "prices": {
+                      "USD": "0.124"
+                    }
+                  }
+                ],
+                "size": "db.m1.large"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "name": "yrTerm1",
+                    "prices": {
+                      "USD": "1,108"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm1Hourly",
+                    "prices": {
+                      "USD": "0.320"
+                    }
+                  },
+                  {
+                    "name": "yrTerm3",
+                    "prices": {
+                      "USD": "1,720"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm3Hourly",
+                    "prices": {
+                      "USD": "0.248"
+                    }
+                  }
+                ],
+                "size": "db.m1.xlarge"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "name": "yrTerm1",
+                    "prices": {
+                      "USD": "651"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm1Hourly",
+                    "prices": {
+                      "USD": "0.194"
+                    }
+                  },
+                  {
+                    "name": "yrTerm3",
+                    "prices": {
+                      "USD": "992"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm3Hourly",
+                    "prices": {
+                      "USD": "0.149"
+                    }
+                  }
+                ],
+                "size": "db.m2.xlarge"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "name": "yrTerm1",
+                    "prices": {
+                      "USD": "1,302"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm1Hourly",
+                    "prices": {
+                      "USD": "0.389"
+                    }
+                  },
+                  {
+                    "name": "yrTerm3",
+                    "prices": {
+                      "USD": "1,984"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm3Hourly",
+                    "prices": {
+                      "USD": "0.297"
+                    }
+                  }
+                ],
+                "size": "db.m2.2xlarge"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "name": "yrTerm1",
+                    "prices": {
+                      "USD": "2,604"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm1Hourly",
+                    "prices": {
+                      "USD": "0.775"
+                    }
+                  },
+                  {
+                    "name": "yrTerm3",
+                    "prices": {
+                      "USD": "3,968"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm3Hourly",
+                    "prices": {
+                      "USD": "0.593"
+                    }
+                  }
+                ],
+                "size": "db.m2.4xlarge"
+              }
+            ]
+          },
+          {
+            "type": "multiAZdeployRes",
+            "tiers": [
+              {
+                "valueColumns": [
+                  {
+                    "prices": {
+                      "USD": "92"
+                    },
+                    "name": "yrTerm1"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.024"
+                    },
+                    "name": "yrTerm1Hourly",
+                    "rate": "perhr"
+                  },
+                  {
+                    "prices": {
+                      "USD": "139"
+                    },
+                    "name": "yrTerm3"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.024"
+                    },
+                    "name": "yrTerm3Hourly",
+                    "rate": "perhr"
+                  }
+                ],
+                "size": "db.t1.micro"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "prices": {
+                      "USD": "440"
+                    },
+                    "name": "yrTerm1"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.124"
+                    },
+                    "name": "yrTerm1Hourly",
+                    "rate": "perhr"
+                  },
+                  {
+                    "prices": {
+                      "USD": "694"
+                    },
+                    "name": "yrTerm3"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.097"
+                    },
+                    "name": "yrTerm3Hourly",
+                    "rate": "perhr"
+                  }
+                ],
+                "size": "db.m3.medium"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "prices": {
+                      "USD": "879"
+                    },
+                    "name": "yrTerm1"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.257"
+                    },
+                    "name": "yrTerm1Hourly",
+                    "rate": "perhr"
+                  },
+                  {
+                    "prices": {
+                      "USD": "1,387"
+                    },
+                    "name": "yrTerm3"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.197"
+                    },
+                    "name": "yrTerm3Hourly",
+                    "rate": "perhr"
+                  }
+                ],
+                "size": "db.m3.large"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "prices": {
+                      "USD": "1,758"
+                    },
+                    "name": "yrTerm1"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.507"
+                    },
+                    "name": "yrTerm1Hourly",
+                    "rate": "perhr"
+                  },
+                  {
+                    "prices": {
+                      "USD": "2,773"
+                    },
+                    "name": "yrTerm3"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.391"
+                    },
+                    "name": "yrTerm3Hourly",
+                    "rate": "perhr"
+                  }
+                ],
+                "size": "db.m3.xlarge"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "prices": {
+                      "USD": "3,517"
+                    },
+                    "name": "yrTerm1"
+                  },
+                  {
+                    "prices": {
+                      "USD": "1.008"
+                    },
+                    "name": "yrTerm1Hourly",
+                    "rate": "perhr"
+                  },
+                  {
+                    "prices": {
+                      "USD": "5,545"
+                    },
+                    "name": "yrTerm3"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.780"
+                    },
+                    "name": "yrTerm3Hourly",
+                    "rate": "perhr"
+                  }
+                ],
+                "size": "db.m3.2xlarge"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "name": "yrTerm1",
+                    "prices": {
+                      "USD": "236"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm1Hourly",
+                    "prices": {
+                      "USD": "0.068"
+                    }
+                  },
+                  {
+                    "name": "yrTerm3",
+                    "prices": {
+                      "USD": "366"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm3Hourly",
+                    "prices": {
+                      "USD": "0.053"
+                    }
+                  }
+                ],
+                "size": "db.m1.small"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "name": "yrTerm1",
+                    "prices": {
+                      "USD": "471"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm1Hourly",
+                    "prices": {
+                      "USD": "0.136"
+                    }
+                  },
+                  {
+                    "name": "yrTerm3",
+                    "prices": {
+                      "USD": "731"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm3Hourly",
+                    "prices": {
+                      "USD": "0.107"
+                    }
+                  }
+                ],
+                "size": "db.m1.medium"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "name": "yrTerm1",
+                    "prices": {
+                      "USD": "942"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm1Hourly",
+                    "prices": {
+                      "USD": "0.274"
+                    }
+                  },
+                  {
+                    "name": "yrTerm3",
+                    "prices": {
+                      "USD": "1,462"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm3Hourly",
+                    "prices": {
+                      "USD": "0.211"
+                    }
+                  }
+                ],
+                "size": "db.m1.large"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "name": "yrTerm1",
+                    "prices": {
+                      "USD": "1,884"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm1Hourly",
+                    "prices": {
+                      "USD": "0.544"
+                    }
+                  },
+                  {
+                    "name": "yrTerm3",
+                    "prices": {
+                      "USD": "2,924"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm3Hourly",
+                    "prices": {
+                      "USD": "0.422"
+                    }
+                  }
+                ],
+                "size": "db.m1.xlarge"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "name": "yrTerm1",
+                    "prices": {
+                      "USD": "1,107"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm1Hourly",
+                    "prices": {
+                      "USD": "0.330"
+                    }
+                  },
+                  {
+                    "name": "yrTerm3",
+                    "prices": {
+                      "USD": "1,686"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm3Hourly",
+                    "prices": {
+                      "USD": "0.253"
+                    }
+                  }
+                ],
+                "size": "db.m2.xlarge"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "name": "yrTerm1",
+                    "prices": {
+                      "USD": "2,213"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm1Hourly",
+                    "prices": {
+                      "USD": "0.661"
+                    }
+                  },
+                  {
+                    "name": "yrTerm3",
+                    "prices": {
+                      "USD": "3,373"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm3Hourly",
+                    "prices": {
+                      "USD": "0.505"
+                    }
+                  }
+                ],
+                "size": "db.m2.2xlarge"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "name": "yrTerm1",
+                    "prices": {
+                      "USD": "4,427"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm1Hourly",
+                    "prices": {
+                      "USD": "1.318"
+                    }
+                  },
+                  {
+                    "name": "yrTerm3",
+                    "prices": {
+                      "USD": "6,746"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm3Hourly",
+                    "prices": {
+                      "USD": "1.008"
+                    }
+                  }
+                ],
+                "size": "db.m2.4xlarge"
+              }
+            ]
+          }
+        ],
+        "region": "us-west"
+      },
+      {
+        "instanceTypes": [
+          {
+            "type": "Single-AZ Deployment (Reserved)",
+            "tiers": [
+              {
+                "valueColumns": [
+                  {
+                    "prices": {
+                      "USD": "54"
+                    },
+                    "name": "yrTerm1"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.014"
+                    },
+                    "name": "yrTerm1Hourly",
+                    "rate": "perhr"
+                  },
+                  {
+                    "prices": {
+                      "USD": "82"
+                    },
+                    "name": "yrTerm3"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.014"
+                    },
+                    "name": "yrTerm3Hourly",
+                    "rate": "perhr"
+                  }
+                ],
+                "size": "db.t1.micro"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "prices": {
+                      "USD": "259"
+                    },
+                    "name": "yrTerm1"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.073"
+                    },
+                    "name": "yrTerm1Hourly",
+                    "rate": "perhr"
+                  },
+                  {
+                    "prices": {
+                      "USD": "408"
+                    },
+                    "name": "yrTerm3"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.057"
+                    },
+                    "name": "yrTerm3Hourly",
+                    "rate": "perhr"
+                  }
+                ],
+                "size": "db.m3.medium"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "prices": {
+                      "USD": "517"
+                    },
+                    "name": "yrTerm1"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.151"
+                    },
+                    "name": "yrTerm1Hourly",
+                    "rate": "perhr"
+                  },
+                  {
+                    "prices": {
+                      "USD": "816"
+                    },
+                    "name": "yrTerm3"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.116"
+                    },
+                    "name": "yrTerm3Hourly",
+                    "rate": "perhr"
+                  }
+                ],
+                "size": "db.m3.large"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "prices": {
+                      "USD": "1,034"
+                    },
+                    "name": "yrTerm1"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.298"
+                    },
+                    "name": "yrTerm1Hourly",
+                    "rate": "perhr"
+                  },
+                  {
+                    "prices": {
+                      "USD": "1,631"
+                    },
+                    "name": "yrTerm3"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.230"
+                    },
+                    "name": "yrTerm3Hourly",
+                    "rate": "perhr"
+                  }
+                ],
+                "size": "db.m3.xlarge"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "prices": {
+                      "USD": "2,069"
+                    },
+                    "name": "yrTerm1"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.591"
+                    },
+                    "name": "yrTerm1Hourly",
+                    "rate": "perhr"
+                  },
+                  {
+                    "prices": {
+                      "USD": "3,262"
+                    },
+                    "name": "yrTerm3"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.456"
+                    },
+                    "name": "yrTerm3Hourly",
+                    "rate": "perhr"
+                  }
+                ],
+                "size": "db.m3.2xlarge"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "name": "yrTerm1",
+                    "prices": {
+                      "USD": "139"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm1Hourly",
+                    "prices": {
+                      "USD": "0.040"
+                    }
+                  },
+                  {
+                    "name": "yrTerm3",
+                    "prices": {
+                      "USD": "215"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm3Hourly",
+                    "prices": {
+                      "USD": "0.031"
+                    }
+                  }
+                ],
+                "size": "db.m1.small"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "name": "yrTerm1",
+                    "prices": {
+                      "USD": "277"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm1Hourly",
+                    "prices": {
+                      "USD": "0.080"
+                    }
+                  },
+                  {
+                    "name": "yrTerm3",
+                    "prices": {
+                      "USD": "430"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm3Hourly",
+                    "prices": {
+                      "USD": "0.061"
+                    }
+                  }
+                ],
+                "size": "db.m1.medium"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "name": "yrTerm1",
+                    "prices": {
+                      "USD": "554"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm1Hourly",
+                    "prices": {
+                      "USD": "0.161"
+                    }
+                  },
+                  {
+                    "name": "yrTerm3",
+                    "prices": {
+                      "USD": "860"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm3Hourly",
+                    "prices": {
+                      "USD": "0.124"
+                    }
+                  }
+                ],
+                "size": "db.m1.large"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "name": "yrTerm1",
+                    "prices": {
+                      "USD": "1,108"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm1Hourly",
+                    "prices": {
+                      "USD": "0.320"
+                    }
+                  },
+                  {
+                    "name": "yrTerm3",
+                    "prices": {
+                      "USD": "1,720"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm3Hourly",
+                    "prices": {
+                      "USD": "0.246"
+                    }
+                  }
+                ],
+                "size": "db.m1.xlarge"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "name": "yrTerm1",
+                    "prices": {
+                      "USD": "651"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm1Hourly",
+                    "prices": {
+                      "USD": "0.194"
+                    }
+                  },
+                  {
+                    "name": "yrTerm3",
+                    "prices": {
+                      "USD": "992"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm3Hourly",
+                    "prices": {
+                      "USD": "0.149"
+                    }
+                  }
+                ],
+                "size": "db.m2.xlarge"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "name": "yrTerm1",
+                    "prices": {
+                      "USD": "1,302"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm1Hourly",
+                    "prices": {
+                      "USD": "0.389"
+                    }
+                  },
+                  {
+                    "name": "yrTerm3",
+                    "prices": {
+                      "USD": "1,984"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm3Hourly",
+                    "prices": {
+                      "USD": "0.297"
+                    }
+                  }
+                ],
+                "size": "db.m2.2xlarge"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "name": "yrTerm1",
+                    "prices": {
+                      "USD": "2,604"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm1Hourly",
+                    "prices": {
+                      "USD": "0.775"
+                    }
+                  },
+                  {
+                    "name": "yrTerm3",
+                    "prices": {
+                      "USD": "3,968"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm3Hourly",
+                    "prices": {
+                      "USD": "0.593"
+                    }
+                  }
+                ],
+                "size": "db.m2.4xlarge"
+              }
+            ]
+          },
+          {
+            "type": "multiAZdeployRes",
+            "tiers": [
+              {
+                "valueColumns": [
+                  {
+                    "prices": {
+                      "USD": "92"
+                    },
+                    "name": "yrTerm1"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.024"
+                    },
+                    "name": "yrTerm1Hourly",
+                    "rate": "perhr"
+                  },
+                  {
+                    "prices": {
+                      "USD": "139"
+                    },
+                    "name": "yrTerm3"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.024"
+                    },
+                    "name": "yrTerm3Hourly",
+                    "rate": "perhr"
+                  }
+                ],
+                "size": "db.t1.micro"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "prices": {
+                      "USD": "440"
+                    },
+                    "name": "yrTerm1"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.124"
+                    },
+                    "name": "yrTerm1Hourly",
+                    "rate": "perhr"
+                  },
+                  {
+                    "prices": {
+                      "USD": "694"
+                    },
+                    "name": "yrTerm3"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.097"
+                    },
+                    "name": "yrTerm3Hourly",
+                    "rate": "perhr"
+                  }
+                ],
+                "size": "db.m3.medium"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "prices": {
+                      "USD": "879"
+                    },
+                    "name": "yrTerm1"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.257"
+                    },
+                    "name": "yrTerm1Hourly",
+                    "rate": "perhr"
+                  },
+                  {
+                    "prices": {
+                      "USD": "1,387"
+                    },
+                    "name": "yrTerm3"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.197"
+                    },
+                    "name": "yrTerm3Hourly",
+                    "rate": "perhr"
+                  }
+                ],
+                "size": "db.m3.large"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "prices": {
+                      "USD": "1,758"
+                    },
+                    "name": "yrTerm1"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.507"
+                    },
+                    "name": "yrTerm1Hourly",
+                    "rate": "perhr"
+                  },
+                  {
+                    "prices": {
+                      "USD": "2,773"
+                    },
+                    "name": "yrTerm3"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.391"
+                    },
+                    "name": "yrTerm3Hourly",
+                    "rate": "perhr"
+                  }
+                ],
+                "size": "db.m3.xlarge"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "prices": {
+                      "USD": "3,517"
+                    },
+                    "name": "yrTerm1"
+                  },
+                  {
+                    "prices": {
+                      "USD": "1.005"
+                    },
+                    "name": "yrTerm1Hourly",
+                    "rate": "perhr"
+                  },
+                  {
+                    "prices": {
+                      "USD": "5,545"
+                    },
+                    "name": "yrTerm3"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.775"
+                    },
+                    "name": "yrTerm3Hourly",
+                    "rate": "perhr"
+                  }
+                ],
+                "size": "db.m3.2xlarge"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "name": "yrTerm1",
+                    "prices": {
+                      "USD": "236"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm1Hourly",
+                    "prices": {
+                      "USD": "0.068"
+                    }
+                  },
+                  {
+                    "name": "yrTerm3",
+                    "prices": {
+                      "USD": "366"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm3Hourly",
+                    "prices": {
+                      "USD": "0.053"
+                    }
+                  }
+                ],
+                "size": "db.m1.small"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "name": "yrTerm1",
+                    "prices": {
+                      "USD": "471"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm1Hourly",
+                    "prices": {
+                      "USD": "0.136"
+                    }
+                  },
+                  {
+                    "name": "yrTerm3",
+                    "prices": {
+                      "USD": "731"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm3Hourly",
+                    "prices": {
+                      "USD": "0.104"
+                    }
+                  }
+                ],
+                "size": "db.m1.medium"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "name": "yrTerm1",
+                    "prices": {
+                      "USD": "942"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm1Hourly",
+                    "prices": {
+                      "USD": "0.274"
+                    }
+                  },
+                  {
+                    "name": "yrTerm3",
+                    "prices": {
+                      "USD": "1,462"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm3Hourly",
+                    "prices": {
+                      "USD": "0.211"
+                    }
+                  }
+                ],
+                "size": "db.m1.large"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "name": "yrTerm1",
+                    "prices": {
+                      "USD": "1,884"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm1Hourly",
+                    "prices": {
+                      "USD": "0.544"
+                    }
+                  },
+                  {
+                    "name": "yrTerm3",
+                    "prices": {
+                      "USD": "2,924"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm3Hourly",
+                    "prices": {
+                      "USD": "0.418"
+                    }
+                  }
+                ],
+                "size": "db.m1.xlarge"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "name": "yrTerm1",
+                    "prices": {
+                      "USD": "1,107"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm1Hourly",
+                    "prices": {
+                      "USD": "0.330"
+                    }
+                  },
+                  {
+                    "name": "yrTerm3",
+                    "prices": {
+                      "USD": "1,686"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm3Hourly",
+                    "prices": {
+                      "USD": "0.253"
+                    }
+                  }
+                ],
+                "size": "db.m2.xlarge"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "name": "yrTerm1",
+                    "prices": {
+                      "USD": "2,213"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm1Hourly",
+                    "prices": {
+                      "USD": "0.661"
+                    }
+                  },
+                  {
+                    "name": "yrTerm3",
+                    "prices": {
+                      "USD": "3,373"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm3Hourly",
+                    "prices": {
+                      "USD": "0.505"
+                    }
+                  }
+                ],
+                "size": "db.m2.2xlarge"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "name": "yrTerm1",
+                    "prices": {
+                      "USD": "4,427"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm1Hourly",
+                    "prices": {
+                      "USD": "1.318"
+                    }
+                  },
+                  {
+                    "name": "yrTerm3",
+                    "prices": {
+                      "USD": "6,746"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm3Hourly",
+                    "prices": {
+                      "USD": "1.008"
+                    }
+                  }
+                ],
+                "size": "db.m2.4xlarge"
+              }
+            ]
+          }
+        ],
+        "region": "eu-ireland"
+      },
+      {
+        "instanceTypes": [
+          {
+            "type": "Single-AZ Deployment (Reserved)",
+            "tiers": [
+              {
+                "valueColumns": [
+                  {
+                    "prices": {
+                      "USD": "54"
+                    },
+                    "name": "yrTerm1"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.014"
+                    },
+                    "name": "yrTerm1Hourly",
+                    "rate": "perhr"
+                  },
+                  {
+                    "prices": {
+                      "USD": "82"
+                    },
+                    "name": "yrTerm3"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.014"
+                    },
+                    "name": "yrTerm3Hourly",
+                    "rate": "perhr"
+                  }
+                ],
+                "size": "db.t1.micro"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "prices": {
+                      "USD": "288"
+                    },
+                    "name": "yrTerm1"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.076"
+                    },
+                    "name": "yrTerm1Hourly",
+                    "rate": "perhr"
+                  },
+                  {
+                    "prices": {
+                      "USD": "452"
+                    },
+                    "name": "yrTerm3"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.058"
+                    },
+                    "name": "yrTerm3Hourly",
+                    "rate": "perhr"
+                  }
+                ],
+                "size": "db.m3.medium"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "prices": {
+                      "USD": "575"
+                    },
+                    "name": "yrTerm1"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.152"
+                    },
+                    "name": "yrTerm1Hourly",
+                    "rate": "perhr"
+                  },
+                  {
+                    "prices": {
+                      "USD": "904"
+                    },
+                    "name": "yrTerm3"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.118"
+                    },
+                    "name": "yrTerm3Hourly",
+                    "rate": "perhr"
+                  }
+                ],
+                "size": "db.m3.large"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "prices": {
+                      "USD": "1150"
+                    },
+                    "name": "yrTerm1"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.302"
+                    },
+                    "name": "yrTerm1Hourly",
+                    "rate": "perhr"
+                  },
+                  {
+                    "prices": {
+                      "USD": "1,808"
+                    },
+                    "name": "yrTerm3"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.236"
+                    },
+                    "name": "yrTerm3Hourly",
+                    "rate": "perhr"
+                  }
+                ],
+                "size": "db.m3.xlarge"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "prices": {
+                      "USD": "2,300"
+                    },
+                    "name": "yrTerm1"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.603"
+                    },
+                    "name": "yrTerm1Hourly",
+                    "rate": "perhr"
+                  },
+                  {
+                    "prices": {
+                      "USD": "3,616"
+                    },
+                    "name": "yrTerm3"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.469"
+                    },
+                    "name": "yrTerm3Hourly",
+                    "rate": "perhr"
+                  }
+                ],
+                "size": "db.m3.2xlarge"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "name": "yrTerm1",
+                    "prices": {
+                      "USD": "152"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm1Hourly",
+                    "prices": {
+                      "USD": "0.042"
+                    }
+                  },
+                  {
+                    "name": "yrTerm3",
+                    "prices": {
+                      "USD": "241"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm3Hourly",
+                    "prices": {
+                      "USD": "0.032"
+                    }
+                  }
+                ],
+                "size": "db.m1.small"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "name": "yrTerm1",
+                    "prices": {
+                      "USD": "304"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm1Hourly",
+                    "prices": {
+                      "USD": "0.082"
+                    }
+                  },
+                  {
+                    "name": "yrTerm3",
+                    "prices": {
+                      "USD": "482"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm3Hourly",
+                    "prices": {
+                      "USD": "0.063"
+                    }
+                  }
+                ],
+                "size": "db.m1.medium"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "name": "yrTerm1",
+                    "prices": {
+                      "USD": "608"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm1Hourly",
+                    "prices": {
+                      "USD": "0.165"
+                    }
+                  },
+                  {
+                    "name": "yrTerm3",
+                    "prices": {
+                      "USD": "964"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm3Hourly",
+                    "prices": {
+                      "USD": "0.128"
+                    }
+                  }
+                ],
+                "size": "db.m1.large"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "name": "yrTerm1",
+                    "prices": {
+                      "USD": "1,215"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm1Hourly",
+                    "prices": {
+                      "USD": "0.330"
+                    }
+                  },
+                  {
+                    "name": "yrTerm3",
+                    "prices": {
+                      "USD": "1,928"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm3Hourly",
+                    "prices": {
+                      "USD": "0.255"
+                    }
+                  }
+                ],
+                "size": "db.m1.xlarge"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "name": "yrTerm1",
+                    "prices": {
+                      "USD": "683"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm1Hourly",
+                    "prices": {
+                      "USD": "0.214"
+                    }
+                  },
+                  {
+                    "name": "yrTerm3",
+                    "prices": {
+                      "USD": "1,038"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm3Hourly",
+                    "prices": {
+                      "USD": "0.165"
+                    }
+                  }
+                ],
+                "size": "db.m2.xlarge"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "name": "yrTerm1",
+                    "prices": {
+                      "USD": "1,366"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm1Hourly",
+                    "prices": {
+                      "USD": "0.428"
+                    }
+                  },
+                  {
+                    "name": "yrTerm3",
+                    "prices": {
+                      "USD": "2,076"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm3Hourly",
+                    "prices": {
+                      "USD": "0.331"
+                    }
+                  }
+                ],
+                "size": "db.m2.2xlarge"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "name": "yrTerm1",
+                    "prices": {
+                      "USD": "2,732"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm1Hourly",
+                    "prices": {
+                      "USD": "0.854"
+                    }
+                  },
+                  {
+                    "name": "yrTerm3",
+                    "prices": {
+                      "USD": "4,152"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm3Hourly",
+                    "prices": {
+                      "USD": "0.660"
+                    }
+                  }
+                ],
+                "size": "db.m2.4xlarge"
+              }
+            ]
+          },
+          {
+            "type": "multiAZdeployRes",
+            "tiers": [
+              {
+                "valueColumns": [
+                  {
+                    "prices": {
+                      "USD": "92"
+                    },
+                    "name": "yrTerm1"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.024"
+                    },
+                    "name": "yrTerm1Hourly",
+                    "rate": "perhr"
+                  },
+                  {
+                    "prices": {
+                      "USD": "139"
+                    },
+                    "name": "yrTerm3"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.024"
+                    },
+                    "name": "yrTerm3Hourly",
+                    "rate": "perhr"
+                  }
+                ],
+                "size": "db.t1.micro"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "prices": {
+                      "USD": "490"
+                    },
+                    "name": "yrTerm1"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.129"
+                    },
+                    "name": "yrTerm1Hourly",
+                    "rate": "perhr"
+                  },
+                  {
+                    "prices": {
+                      "USD": "768"
+                    },
+                    "name": "yrTerm3"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.099"
+                    },
+                    "name": "yrTerm3Hourly",
+                    "rate": "perhr"
+                  }
+                ],
+                "size": "db.m3.medium"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "prices": {
+                      "USD": "978"
+                    },
+                    "name": "yrTerm1"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.258"
+                    },
+                    "name": "yrTerm1Hourly",
+                    "rate": "perhr"
+                  },
+                  {
+                    "prices": {
+                      "USD": "1,537"
+                    },
+                    "name": "yrTerm3"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.201"
+                    },
+                    "name": "yrTerm3Hourly",
+                    "rate": "perhr"
+                  }
+                ],
+                "size": "db.m3.large"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "prices": {
+                      "USD": "1,955"
+                    },
+                    "name": "yrTerm1"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.513"
+                    },
+                    "name": "yrTerm1Hourly",
+                    "rate": "perhr"
+                  },
+                  {
+                    "prices": {
+                      "USD": "3,074"
+                    },
+                    "name": "yrTerm3"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.401"
+                    },
+                    "name": "yrTerm3Hourly",
+                    "rate": "perhr"
+                  }
+                ],
+                "size": "db.m3.xlarge"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "prices": {
+                      "USD": "3,910"
+                    },
+                    "name": "yrTerm1"
+                  },
+                  {
+                    "prices": {
+                      "USD": "1.025"
+                    },
+                    "name": "yrTerm1Hourly",
+                    "rate": "perhr"
+                  },
+                  {
+                    "prices": {
+                      "USD": "6,147"
+                    },
+                    "name": "yrTerm3"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.797"
+                    },
+                    "name": "yrTerm3Hourly",
+                    "rate": "perhr"
+                  }
+                ],
+                "size": "db.m3.2xlarge"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "name": "yrTerm1",
+                    "prices": {
+                      "USD": "258"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm1Hourly",
+                    "prices": {
+                      "USD": "0.071"
+                    }
+                  },
+                  {
+                    "name": "yrTerm3",
+                    "prices": {
+                      "USD": "410"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm3Hourly",
+                    "prices": {
+                      "USD": "0.054"
+                    }
+                  }
+                ],
+                "size": "db.m1.small"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "name": "yrTerm1",
+                    "prices": {
+                      "USD": "517"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm1Hourly",
+                    "prices": {
+                      "USD": "0.139"
+                    }
+                  },
+                  {
+                    "name": "yrTerm3",
+                    "prices": {
+                      "USD": "819"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm3Hourly",
+                    "prices": {
+                      "USD": "0.107"
+                    }
+                  }
+                ],
+                "size": "db.m1.medium"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "name": "yrTerm1",
+                    "prices": {
+                      "USD": "1,034"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm1Hourly",
+                    "prices": {
+                      "USD": "0.281"
+                    }
+                  },
+                  {
+                    "name": "yrTerm3",
+                    "prices": {
+                      "USD": "1,639"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm3Hourly",
+                    "prices": {
+                      "USD": "0.218"
+                    }
+                  }
+                ],
+                "size": "db.m1.large"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "name": "yrTerm1",
+                    "prices": {
+                      "USD": "2,066"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm1Hourly",
+                    "prices": {
+                      "USD": "0.561"
+                    }
+                  },
+                  {
+                    "name": "yrTerm3",
+                    "prices": {
+                      "USD": "3,278"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm3Hourly",
+                    "prices": {
+                      "USD": "0.434"
+                    }
+                  }
+                ],
+                "size": "db.m1.xlarge"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "name": "yrTerm1",
+                    "prices": {
+                      "USD": "1,161"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm1Hourly",
+                    "prices": {
+                      "USD": "0.364"
+                    }
+                  },
+                  {
+                    "name": "yrTerm3",
+                    "prices": {
+                      "USD": "1,765"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm3Hourly",
+                    "prices": {
+                      "USD": "0.281"
+                    }
+                  }
+                ],
+                "size": "db.m2.xlarge"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "name": "yrTerm1",
+                    "prices": {
+                      "USD": "2,322"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm1Hourly",
+                    "prices": {
+                      "USD": "0.728"
+                    }
+                  },
+                  {
+                    "name": "yrTerm3",
+                    "prices": {
+                      "USD": "3,529"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm3Hourly",
+                    "prices": {
+                      "USD": "0.563"
+                    }
+                  }
+                ],
+                "size": "db.m2.2xlarge"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "name": "yrTerm1",
+                    "prices": {
+                      "USD": "4,644"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm1Hourly",
+                    "prices": {
+                      "USD": "1.452"
+                    }
+                  },
+                  {
+                    "name": "yrTerm3",
+                    "prices": {
+                      "USD": "7,058"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm3Hourly",
+                    "prices": {
+                      "USD": "1.122"
+                    }
+                  }
+                ],
+                "size": "db.m2.4xlarge"
+              }
+            ]
+          }
+        ],
+        "region": "apac-sin"
+      },
+      {
+        "instanceTypes": [
+          {
+            "type": "Single-AZ Deployment (Reserved)",
+            "tiers": [
+              {
+                "valueColumns": [
+                  {
+                    "prices": {
+                      "USD": "57"
+                    },
+                    "name": "yrTerm1"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.015"
+                    },
+                    "name": "yrTerm1Hourly",
+                    "rate": "perhr"
+                  },
+                  {
+                    "prices": {
+                      "USD": "86"
+                    },
+                    "name": "yrTerm3"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.015"
+                    },
+                    "name": "yrTerm3Hourly",
+                    "rate": "perhr"
+                  }
+                ],
+                "size": "db.t1.micro"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "prices": {
+                      "USD": "300"
+                    },
+                    "name": "yrTerm1"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.086"
+                    },
+                    "name": "yrTerm1Hourly",
+                    "rate": "perhr"
+                  },
+                  {
+                    "prices": {
+                      "USD": "455"
+                    },
+                    "name": "yrTerm3"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.068"
+                    },
+                    "name": "yrTerm3Hourly",
+                    "rate": "perhr"
+                  }
+                ],
+                "size": "db.m3.medium"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "prices": {
+                      "USD": "601"
+                    },
+                    "name": "yrTerm1"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.170"
+                    },
+                    "name": "yrTerm1Hourly",
+                    "rate": "perhr"
+                  },
+                  {
+                    "prices": {
+                      "USD": "911"
+                    },
+                    "name": "yrTerm3"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.134"
+                    },
+                    "name": "yrTerm3Hourly",
+                    "rate": "perhr"
+                  }
+                ],
+                "size": "db.m3.large"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "prices": {
+                      "USD": "1,201"
+                    },
+                    "name": "yrTerm1"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.342"
+                    },
+                    "name": "yrTerm1Hourly",
+                    "rate": "perhr"
+                  },
+                  {
+                    "prices": {
+                      "USD": "1,821"
+                    },
+                    "name": "yrTerm3"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.269"
+                    },
+                    "name": "yrTerm3Hourly",
+                    "rate": "perhr"
+                  }
+                ],
+                "size": "db.m3.xlarge"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "prices": {
+                      "USD": "2,402"
+                    },
+                    "name": "yrTerm1"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.680"
+                    },
+                    "name": "yrTerm1Hourly",
+                    "rate": "perhr"
+                  },
+                  {
+                    "prices": {
+                      "USD": "3,641"
+                    },
+                    "name": "yrTerm3"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.538"
+                    },
+                    "name": "yrTerm3Hourly",
+                    "rate": "perhr"
+                  }
+                ],
+                "size": "db.m3.2xlarge"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "name": "yrTerm1",
+                    "prices": {
+                      "USD": "168"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm1Hourly",
+                    "prices": {
+                      "USD": "0.050"
+                    }
+                  },
+                  {
+                    "name": "yrTerm3",
+                    "prices": {
+                      "USD": "263"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm3Hourly",
+                    "prices": {
+                      "USD": "0.037"
+                    }
+                  }
+                ],
+                "size": "db.m1.small"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "name": "yrTerm1",
+                    "prices": {
+                      "USD": "322"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm1Hourly",
+                    "prices": {
+                      "USD": "0.092"
+                    }
+                  },
+                  {
+                    "name": "yrTerm3",
+                    "prices": {
+                      "USD": "482"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm3Hourly",
+                    "prices": {
+                      "USD": "0.072"
+                    }
+                  }
+                ],
+                "size": "db.m1.medium"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "name": "yrTerm1",
+                    "prices": {
+                      "USD": "672"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm1Hourly",
+                    "prices": {
+                      "USD": "0.185"
+                    }
+                  },
+                  {
+                    "name": "yrTerm3",
+                    "prices": {
+                      "USD": "1,050"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm3Hourly",
+                    "prices": {
+                      "USD": "0.144"
+                    }
+                  }
+                ],
+                "size": "db.m1.large"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "name": "yrTerm1",
+                    "prices": {
+                      "USD": "1,344"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm1Hourly",
+                    "prices": {
+                      "USD": "0.389"
+                    }
+                  },
+                  {
+                    "name": "yrTerm3",
+                    "prices": {
+                      "USD": "2,100"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm3Hourly",
+                    "prices": {
+                      "USD": "0.303"
+                    }
+                  }
+                ],
+                "size": "db.m1.xlarge"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "name": "yrTerm1",
+                    "prices": {
+                      "USD": "711"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm1Hourly",
+                    "prices": {
+                      "USD": "0.236"
+                    }
+                  },
+                  {
+                    "name": "yrTerm3",
+                    "prices": {
+                      "USD": "1,079"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm3Hourly",
+                    "prices": {
+                      "USD": "0.179"
+                    }
+                  }
+                ],
+                "size": "db.m2.xlarge"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "name": "yrTerm1",
+                    "prices": {
+                      "USD": "1,422"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm1Hourly",
+                    "prices": {
+                      "USD": "0.471"
+                    }
+                  },
+                  {
+                    "name": "yrTerm3",
+                    "prices": {
+                      "USD": "2,158"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm3Hourly",
+                    "prices": {
+                      "USD": "0.358"
+                    }
+                  }
+                ],
+                "size": "db.m2.2xlarge"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "name": "yrTerm1",
+                    "prices": {
+                      "USD": "2,844"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm1Hourly",
+                    "prices": {
+                      "USD": "0.940"
+                    }
+                  },
+                  {
+                    "name": "yrTerm3",
+                    "prices": {
+                      "USD": "4,316"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm3Hourly",
+                    "prices": {
+                      "USD": "0.715"
+                    }
+                  }
+                ],
+                "size": "db.m2.4xlarge"
+              }
+            ]
+          },
+          {
+            "type": "multiAZdeployRes",
+            "tiers": [
+              {
+                "valueColumns": [
+                  {
+                    "prices": {
+                      "USD": "97"
+                    },
+                    "name": "yrTerm1"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.026"
+                    },
+                    "name": "yrTerm1Hourly",
+                    "rate": "perhr"
+                  },
+                  {
+                    "prices": {
+                      "USD": "146"
+                    },
+                    "name": "yrTerm3"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.026"
+                    },
+                    "name": "yrTerm3Hourly",
+                    "rate": "perhr"
+                  }
+                ],
+                "size": "db.t1.micro"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "prices": {
+                      "USD": "510"
+                    },
+                    "name": "yrTerm1"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.146"
+                    },
+                    "name": "yrTerm1Hourly",
+                    "rate": "perhr"
+                  },
+                  {
+                    "prices": {
+                      "USD": "774"
+                    },
+                    "name": "yrTerm3"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.116"
+                    },
+                    "name": "yrTerm3Hourly",
+                    "rate": "perhr"
+                  }
+                ],
+                "size": "db.m3.medium"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "prices": {
+                      "USD": "1,022"
+                    },
+                    "name": "yrTerm1"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.289"
+                    },
+                    "name": "yrTerm1Hourly",
+                    "rate": "perhr"
+                  },
+                  {
+                    "prices": {
+                      "USD": "1,549"
+                    },
+                    "name": "yrTerm3"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.228"
+                    },
+                    "name": "yrTerm3Hourly",
+                    "rate": "perhr"
+                  }
+                ],
+                "size": "db.m3.large"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "prices": {
+                      "USD": "2,042"
+                    },
+                    "name": "yrTerm1"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.581"
+                    },
+                    "name": "yrTerm1Hourly",
+                    "rate": "perhr"
+                  },
+                  {
+                    "prices": {
+                      "USD": "3,096"
+                    },
+                    "name": "yrTerm3"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.457"
+                    },
+                    "name": "yrTerm3Hourly",
+                    "rate": "perhr"
+                  }
+                ],
+                "size": "db.m3.xlarge"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "prices": {
+                      "USD": "4,083"
+                    },
+                    "name": "yrTerm1"
+                  },
+                  {
+                    "prices": {
+                      "USD": "1.156"
+                    },
+                    "name": "yrTerm1Hourly",
+                    "rate": "perhr"
+                  },
+                  {
+                    "prices": {
+                      "USD": "6,190"
+                    },
+                    "name": "yrTerm3"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.915"
+                    },
+                    "name": "yrTerm3Hourly",
+                    "rate": "perhr"
+                  }
+                ],
+                "size": "db.m3.2xlarge"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "name": "yrTerm1",
+                    "prices": {
+                      "USD": "286"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm1Hourly",
+                    "prices": {
+                      "USD": "0.085"
+                    }
+                  },
+                  {
+                    "name": "yrTerm3",
+                    "prices": {
+                      "USD": "446"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm3Hourly",
+                    "prices": {
+                      "USD": "0.063"
+                    }
+                  }
+                ],
+                "size": "db.m1.small"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "name": "yrTerm1",
+                    "prices": {
+                      "USD": "547"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm1Hourly",
+                    "prices": {
+                      "USD": "0.156"
+                    }
+                  },
+                  {
+                    "name": "yrTerm3",
+                    "prices": {
+                      "USD": "819"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm3Hourly",
+                    "prices": {
+                      "USD": "0.122"
+                    }
+                  }
+                ],
+                "size": "db.m1.medium"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "name": "yrTerm1",
+                    "prices": {
+                      "USD": "1,142"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm1Hourly",
+                    "prices": {
+                      "USD": "0.315"
+                    }
+                  },
+                  {
+                    "name": "yrTerm3",
+                    "prices": {
+                      "USD": "1,785"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm3Hourly",
+                    "prices": {
+                      "USD": "0.245"
+                    }
+                  }
+                ],
+                "size": "db.m1.large"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "name": "yrTerm1",
+                    "prices": {
+                      "USD": "2,285"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm1Hourly",
+                    "prices": {
+                      "USD": "0.661"
+                    }
+                  },
+                  {
+                    "name": "yrTerm3",
+                    "prices": {
+                      "USD": "3,570"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm3Hourly",
+                    "prices": {
+                      "USD": "0.515"
+                    }
+                  }
+                ],
+                "size": "db.m1.xlarge"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "name": "yrTerm1",
+                    "prices": {
+                      "USD": "1,209"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm1Hourly",
+                    "prices": {
+                      "USD": "0.401"
+                    }
+                  },
+                  {
+                    "name": "yrTerm3",
+                    "prices": {
+                      "USD": "1,834"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm3Hourly",
+                    "prices": {
+                      "USD": "0.304"
+                    }
+                  }
+                ],
+                "size": "db.m2.xlarge"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "name": "yrTerm1",
+                    "prices": {
+                      "USD": "2,417"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm1Hourly",
+                    "prices": {
+                      "USD": "0.801"
+                    }
+                  },
+                  {
+                    "name": "yrTerm3",
+                    "prices": {
+                      "USD": "3,669"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm3Hourly",
+                    "prices": {
+                      "USD": "0.609"
+                    }
+                  }
+                ],
+                "size": "db.m2.2xlarge"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "name": "yrTerm1",
+                    "prices": {
+                      "USD": "4,835"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm1Hourly",
+                    "prices": {
+                      "USD": "1.598"
+                    }
+                  },
+                  {
+                    "name": "yrTerm3",
+                    "prices": {
+                      "USD": "7,337"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm3Hourly",
+                    "prices": {
+                      "USD": "1.216"
+                    }
+                  }
+                ],
+                "size": "db.m2.4xlarge"
+              }
+            ]
+          }
+        ],
+        "region": "apac-tokyo"
+      },
+      {
+        "instanceTypes": [
+          {
+            "type": "Single-AZ Deployment (Reserved)",
+            "tiers": [
+              {
+                "valueColumns": [
+                  {
+                    "prices": {
+                      "USD": "54"
+                    },
+                    "name": "yrTerm1"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.014"
+                    },
+                    "name": "yrTerm1Hourly",
+                    "rate": "perhr"
+                  },
+                  {
+                    "prices": {
+                      "USD": "82"
+                    },
+                    "name": "yrTerm3"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.014"
+                    },
+                    "name": "yrTerm3Hourly",
+                    "rate": "perhr"
+                  }
+                ],
+                "size": "db.t1.micro"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "prices": {
+                      "USD": "288"
+                    },
+                    "name": "yrTerm1"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.076"
+                    },
+                    "name": "yrTerm1Hourly",
+                    "rate": "perhr"
+                  },
+                  {
+                    "prices": {
+                      "USD": "452"
+                    },
+                    "name": "yrTerm3"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.058"
+                    },
+                    "name": "yrTerm3Hourly",
+                    "rate": "perhr"
+                  }
+                ],
+                "size": "db.m3.medium"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "prices": {
+                      "USD": "575"
+                    },
+                    "name": "yrTerm1"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.152"
+                    },
+                    "name": "yrTerm1Hourly",
+                    "rate": "perhr"
+                  },
+                  {
+                    "prices": {
+                      "USD": "904"
+                    },
+                    "name": "yrTerm3"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.118"
+                    },
+                    "name": "yrTerm3Hourly",
+                    "rate": "perhr"
+                  }
+                ],
+                "size": "db.m3.large"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "prices": {
+                      "USD": "1,150"
+                    },
+                    "name": "yrTerm1"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.302"
+                    },
+                    "name": "yrTerm1Hourly",
+                    "rate": "perhr"
+                  },
+                  {
+                    "prices": {
+                      "USD": "1,808"
+                    },
+                    "name": "yrTerm3"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.236"
+                    },
+                    "name": "yrTerm3Hourly",
+                    "rate": "perhr"
+                  }
+                ],
+                "size": "db.m3.xlarge"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "prices": {
+                      "USD": "2,300"
+                    },
+                    "name": "yrTerm1"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.603"
+                    },
+                    "name": "yrTerm1Hourly",
+                    "rate": "perhr"
+                  },
+                  {
+                    "prices": {
+                      "USD": "3,616"
+                    },
+                    "name": "yrTerm3"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.469"
+                    },
+                    "name": "yrTerm3Hourly",
+                    "rate": "perhr"
+                  }
+                ],
+                "size": "db.m3.2xlarge"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "name": "yrTerm1",
+                    "prices": {
+                      "USD": "152"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm1Hourly",
+                    "prices": {
+                      "USD": "0.042"
+                    }
+                  },
+                  {
+                    "name": "yrTerm3",
+                    "prices": {
+                      "USD": "241"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm3Hourly",
+                    "prices": {
+                      "USD": "0.032"
+                    }
+                  }
+                ],
+                "size": "db.m1.small"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "name": "yrTerm1",
+                    "prices": {
+                      "USD": "304"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm1Hourly",
+                    "prices": {
+                      "USD": "0.082"
+                    }
+                  },
+                  {
+                    "name": "yrTerm3",
+                    "prices": {
+                      "USD": "482"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm3Hourly",
+                    "prices": {
+                      "USD": "0.063"
+                    }
+                  }
+                ],
+                "size": "db.m1.medium"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "name": "yrTerm1",
+                    "prices": {
+                      "USD": "608"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm1Hourly",
+                    "prices": {
+                      "USD": "0.165"
+                    }
+                  },
+                  {
+                    "name": "yrTerm3",
+                    "prices": {
+                      "USD": "965"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm3Hourly",
+                    "prices": {
+                      "USD": "0.128"
+                    }
+                  }
+                ],
+                "size": "db.m1.large"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "name": "yrTerm1",
+                    "prices": {
+                      "USD": "1,215"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm1Hourly",
+                    "prices": {
+                      "USD": "0.330"
+                    }
+                  },
+                  {
+                    "name": "yrTerm3",
+                    "prices": {
+                      "USD": "1,928"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm3Hourly",
+                    "prices": {
+                      "USD": "0.255"
+                    }
+                  }
+                ],
+                "size": "db.m1.xlarge"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "name": "yrTerm1",
+                    "prices": {
+                      "USD": "683"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm1Hourly",
+                    "prices": {
+                      "USD": "0.214"
+                    }
+                  },
+                  {
+                    "name": "yrTerm3",
+                    "prices": {
+                      "USD": "1,038"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm3Hourly",
+                    "prices": {
+                      "USD": "0.165"
+                    }
+                  }
+                ],
+                "size": "db.m2.xlarge"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "name": "yrTerm1",
+                    "prices": {
+                      "USD": "1,366"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm1Hourly",
+                    "prices": {
+                      "USD": "0.428"
+                    }
+                  },
+                  {
+                    "name": "yrTerm3",
+                    "prices": {
+                      "USD": "2,076"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm3Hourly",
+                    "prices": {
+                      "USD": "0.331"
+                    }
+                  }
+                ],
+                "size": "db.m2.2xlarge"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "name": "yrTerm1",
+                    "prices": {
+                      "USD": "2,732"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm1Hourly",
+                    "prices": {
+                      "USD": "0.854"
+                    }
+                  },
+                  {
+                    "name": "yrTerm3",
+                    "prices": {
+                      "USD": "4,152"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm3Hourly",
+                    "prices": {
+                      "USD": "0.660"
+                    }
+                  }
+                ],
+                "size": "db.m2.4xlarge"
+              }
+            ]
+          },
+          {
+            "type": "multiAZdeployRes",
+            "tiers": [
+              {
+                "valueColumns": [
+                  {
+                    "prices": {
+                      "USD": "92"
+                    },
+                    "name": "yrTerm1"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.024"
+                    },
+                    "name": "yrTerm1Hourly",
+                    "rate": "perhr"
+                  },
+                  {
+                    "prices": {
+                      "USD": "139"
+                    },
+                    "name": "yrTerm3"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.024"
+                    },
+                    "name": "yrTerm3Hourly",
+                    "rate": "perhr"
+                  }
+                ],
+                "size": "db.t1.micro"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "prices": {
+                      "USD": "490"
+                    },
+                    "name": "yrTerm1"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.129"
+                    },
+                    "name": "yrTerm1Hourly",
+                    "rate": "perhr"
+                  },
+                  {
+                    "prices": {
+                      "USD": "768"
+                    },
+                    "name": "yrTerm3"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.099"
+                    },
+                    "name": "yrTerm3Hourly",
+                    "rate": "perhr"
+                  }
+                ],
+                "size": "db.m3.medium"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "prices": {
+                      "USD": "978"
+                    },
+                    "name": "yrTerm1"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.258"
+                    },
+                    "name": "yrTerm1Hourly",
+                    "rate": "perhr"
+                  },
+                  {
+                    "prices": {
+                      "USD": "1,537"
+                    },
+                    "name": "yrTerm3"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.201"
+                    },
+                    "name": "yrTerm3Hourly",
+                    "rate": "perhr"
+                  }
+                ],
+                "size": "db.m3.large"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "prices": {
+                      "USD": "1,955"
+                    },
+                    "name": "yrTerm1"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.513"
+                    },
+                    "name": "yrTerm1Hourly",
+                    "rate": "perhr"
+                  },
+                  {
+                    "prices": {
+                      "USD": "3,074"
+                    },
+                    "name": "yrTerm3"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.401"
+                    },
+                    "name": "yrTerm3Hourly",
+                    "rate": "perhr"
+                  }
+                ],
+                "size": "db.m3.xlarge"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "prices": {
+                      "USD": "3,910"
+                    },
+                    "name": "yrTerm1"
+                  },
+                  {
+                    "prices": {
+                      "USD": "1.025"
+                    },
+                    "name": "yrTerm1Hourly",
+                    "rate": "perhr"
+                  },
+                  {
+                    "prices": {
+                      "USD": "6,147"
+                    },
+                    "name": "yrTerm3"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.797"
+                    },
+                    "name": "yrTerm3Hourly",
+                    "rate": "perhr"
+                  }
+                ],
+                "size": "db.m3.2xlarge"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "name": "yrTerm1",
+                    "prices": {
+                      "USD": "258"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm1Hourly",
+                    "prices": {
+                      "USD": "0.071"
+                    }
+                  },
+                  {
+                    "name": "yrTerm3",
+                    "prices": {
+                      "USD": "410"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm3Hourly",
+                    "prices": {
+                      "USD": "0.054"
+                    }
+                  }
+                ],
+                "size": "db.m1.small"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "name": "yrTerm1",
+                    "prices": {
+                      "USD": "517"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm1Hourly",
+                    "prices": {
+                      "USD": "0.139"
+                    }
+                  },
+                  {
+                    "name": "yrTerm3",
+                    "prices": {
+                      "USD": "819"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm3Hourly",
+                    "prices": {
+                      "USD": "0.107"
+                    }
+                  }
+                ],
+                "size": "db.m1.medium"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "name": "yrTerm1",
+                    "prices": {
+                      "USD": "1,034"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm1Hourly",
+                    "prices": {
+                      "USD": "0.281"
+                    }
+                  },
+                  {
+                    "name": "yrTerm3",
+                    "prices": {
+                      "USD": "1,639"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm3Hourly",
+                    "prices": {
+                      "USD": "0.218"
+                    }
+                  }
+                ],
+                "size": "db.m1.large"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "name": "yrTerm1",
+                    "prices": {
+                      "USD": "2,066"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm1Hourly",
+                    "prices": {
+                      "USD": "0.561"
+                    }
+                  },
+                  {
+                    "name": "yrTerm3",
+                    "prices": {
+                      "USD": "3,278"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm3Hourly",
+                    "prices": {
+                      "USD": "0.434"
+                    }
+                  }
+                ],
+                "size": "db.m1.xlarge"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "name": "yrTerm1",
+                    "prices": {
+                      "USD": "1,161"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm1Hourly",
+                    "prices": {
+                      "USD": "0.364"
+                    }
+                  },
+                  {
+                    "name": "yrTerm3",
+                    "prices": {
+                      "USD": "1,765"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm3Hourly",
+                    "prices": {
+                      "USD": "0.281"
+                    }
+                  }
+                ],
+                "size": "db.m2.xlarge"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "name": "yrTerm1",
+                    "prices": {
+                      "USD": "2,322"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm1Hourly",
+                    "prices": {
+                      "USD": "0.728"
+                    }
+                  },
+                  {
+                    "name": "yrTerm3",
+                    "prices": {
+                      "USD": "3,529"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm3Hourly",
+                    "prices": {
+                      "USD": "0.563"
+                    }
+                  }
+                ],
+                "size": "db.m2.2xlarge"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "name": "yrTerm1",
+                    "prices": {
+                      "USD": "4,644"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm1Hourly",
+                    "prices": {
+                      "USD": "1.452"
+                    }
+                  },
+                  {
+                    "name": "yrTerm3",
+                    "prices": {
+                      "USD": "7,058"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm3Hourly",
+                    "prices": {
+                      "USD": "1.122"
+                    }
+                  }
+                ],
+                "size": "db.m2.4xlarge"
+              }
+            ]
+          }
+        ],
+        "region": "apac-syd"
+      },
+      {
+        "instanceTypes": [
+          {
+            "type": "Single-AZ Deployment (Reserved)",
+            "tiers": [
+              {
+                "valueColumns": [
+                  {
+                    "prices": {
+                      "USD": "73"
+                    },
+                    "name": "yrTerm1"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.013"
+                    },
+                    "name": "yrTerm1Hourly",
+                    "rate": "perhr"
+                  },
+                  {
+                    "prices": {
+                      "USD": "111"
+                    },
+                    "name": "yrTerm3"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.013"
+                    },
+                    "name": "yrTerm3Hourly",
+                    "rate": "perhr"
+                  }
+                ],
+                "size": "db.t1.micro"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "prices": {
+                      "USD": "363"
+                    },
+                    "name": "yrTerm1"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.087"
+                    },
+                    "name": "yrTerm1Hourly",
+                    "rate": "perhr"
+                  },
+                  {
+                    "prices": {
+                      "USD": "605"
+                    },
+                    "name": "yrTerm3"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.073"
+                    },
+                    "name": "yrTerm3Hourly",
+                    "rate": "perhr"
+                  }
+                ],
+                "size": "db.m3.medium"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "prices": {
+                      "USD": "727"
+                    },
+                    "name": "yrTerm1"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.175"
+                    },
+                    "name": "yrTerm1Hourly",
+                    "rate": "perhr"
+                  },
+                  {
+                    "prices": {
+                      "USD": "1,211"
+                    },
+                    "name": "yrTerm3"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.145"
+                    },
+                    "name": "yrTerm3Hourly",
+                    "rate": "perhr"
+                  }
+                ],
+                "size": "db.m3.large"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "prices": {
+                      "USD": "1,453"
+                    },
+                    "name": "yrTerm1"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.349"
+                    },
+                    "name": "yrTerm1Hourly",
+                    "rate": "perhr"
+                  },
+                  {
+                    "prices": {
+                      "USD": "2,421"
+                    },
+                    "name": "yrTerm3"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.289"
+                    },
+                    "name": "yrTerm3Hourly",
+                    "rate": "perhr"
+                  }
+                ],
+                "size": "db.m3.xlarge"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "prices": {
+                      "USD": "2,904"
+                    },
+                    "name": "yrTerm1"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.697"
+                    },
+                    "name": "yrTerm1Hourly",
+                    "rate": "perhr"
+                  },
+                  {
+                    "prices": {
+                      "USD": "4,841"
+                    },
+                    "name": "yrTerm3"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.579"
+                    },
+                    "name": "yrTerm3Hourly",
+                    "rate": "perhr"
+                  }
+                ],
+                "size": "db.m3.2xlarge"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "name": "yrTerm1",
+                    "prices": {
+                      "USD": "294"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm1Hourly",
+                    "prices": {
+                      "USD": "0.056"
+                    }
+                  },
+                  {
+                    "name": "yrTerm3",
+                    "prices": {
+                      "USD": "453"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm3Hourly",
+                    "prices": {
+                      "USD": "0.027"
+                    }
+                  }
+                ],
+                "size": "db.m1.small"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "name": "yrTerm1",
+                    "prices": {
+                      "USD": "588"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm1Hourly",
+                    "prices": {
+                      "USD": "0.112"
+                    }
+                  },
+                  {
+                    "name": "yrTerm3",
+                    "prices": {
+                      "USD": "905"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm3Hourly",
+                    "prices": {
+                      "USD": "0.054"
+                    }
+                  }
+                ],
+                "size": "db.m1.medium"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "name": "yrTerm1",
+                    "prices": {
+                      "USD": "1,176"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm1Hourly",
+                    "prices": {
+                      "USD": "0.224"
+                    }
+                  },
+                  {
+                    "name": "yrTerm3",
+                    "prices": {
+                      "USD": "1,809"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm3Hourly",
+                    "prices": {
+                      "USD": "0.107"
+                    }
+                  }
+                ],
+                "size": "db.m1.large"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "name": "yrTerm1",
+                    "prices": {
+                      "USD": "2,351"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm1Hourly",
+                    "prices": {
+                      "USD": "0.446"
+                    }
+                  },
+                  {
+                    "name": "yrTerm3",
+                    "prices": {
+                      "USD": "3,618"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm3Hourly",
+                    "prices": {
+                      "USD": "0.213"
+                    }
+                  }
+                ],
+                "size": "db.m1.xlarge"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "name": "yrTerm1",
+                    "prices": {
+                      "USD": "1,408"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm1Hourly",
+                    "prices": {
+                      "USD": "0.273"
+                    }
+                  },
+                  {
+                    "name": "yrTerm3",
+                    "prices": {
+                      "USD": "2,138"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm3Hourly",
+                    "prices": {
+                      "USD": "0.206"
+                    }
+                  }
+                ],
+                "size": "db.m2.xlarge"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "name": "yrTerm1",
+                    "prices": {
+                      "USD": "2,816"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm1Hourly",
+                    "prices": {
+                      "USD": "0.546"
+                    }
+                  },
+                  {
+                    "name": "yrTerm3",
+                    "prices": {
+                      "USD": "4,276"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm3Hourly",
+                    "prices": {
+                      "USD": "0.412"
+                    }
+                  }
+                ],
+                "size": "db.m2.2xlarge"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "name": "yrTerm1",
+                    "prices": {
+                      "USD": "5,632"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm1Hourly",
+                    "prices": {
+                      "USD": "1.088"
+                    }
+                  },
+                  {
+                    "name": "yrTerm3",
+                    "prices": {
+                      "USD": "8,552"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm3Hourly",
+                    "prices": {
+                      "USD": "0.821"
+                    }
+                  }
+                ],
+                "size": "db.m2.4xlarge"
+              }
+            ]
+          },
+          {
+            "type": "multiAZdeployRes",
+            "tiers": [
+              {
+                "valueColumns": [
+                  {
+                    "prices": {
+                      "USD": "124"
+                    },
+                    "name": "yrTerm1"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.022"
+                    },
+                    "name": "yrTerm1Hourly",
+                    "rate": "perhr"
+                  },
+                  {
+                    "prices": {
+                      "USD": "189"
+                    },
+                    "name": "yrTerm3"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.022"
+                    },
+                    "name": "yrTerm3Hourly",
+                    "rate": "perhr"
+                  }
+                ],
+                "size": "db.t1.micro"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "prices": {
+                      "USD": "617"
+                    },
+                    "name": "yrTerm1"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.148"
+                    },
+                    "name": "yrTerm1Hourly",
+                    "rate": "perhr"
+                  },
+                  {
+                    "prices": {
+                      "USD": "1,029"
+                    },
+                    "name": "yrTerm3"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.124"
+                    },
+                    "name": "yrTerm3Hourly",
+                    "rate": "perhr"
+                  }
+                ],
+                "size": "db.m3.medium"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "prices": {
+                      "USD": "1,236"
+                    },
+                    "name": "yrTerm1"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.298"
+                    },
+                    "name": "yrTerm1Hourly",
+                    "rate": "perhr"
+                  },
+                  {
+                    "prices": {
+                      "USD": "2,059"
+                    },
+                    "name": "yrTerm3"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.247"
+                    },
+                    "name": "yrTerm3Hourly",
+                    "rate": "perhr"
+                  }
+                ],
+                "size": "db.m3.large"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "prices": {
+                      "USD": "2,470"
+                    },
+                    "name": "yrTerm1"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.593"
+                    },
+                    "name": "yrTerm1Hourly",
+                    "rate": "perhr"
+                  },
+                  {
+                    "prices": {
+                      "USD": "4,116"
+                    },
+                    "name": "yrTerm3"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.491"
+                    },
+                    "name": "yrTerm3Hourly",
+                    "rate": "perhr"
+                  }
+                ],
+                "size": "db.m3.xlarge"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "prices": {
+                      "USD": "4,937"
+                    },
+                    "name": "yrTerm1"
+                  },
+                  {
+                    "prices": {
+                      "USD": "1.185"
+                    },
+                    "name": "yrTerm1Hourly",
+                    "rate": "perhr"
+                  },
+                  {
+                    "prices": {
+                      "USD": "8,230"
+                    },
+                    "name": "yrTerm3"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.984"
+                    },
+                    "name": "yrTerm3Hourly",
+                    "rate": "perhr"
+                  }
+                ],
+                "size": "db.m3.2xlarge"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "name": "yrTerm1",
+                    "prices": {
+                      "USD": "500"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm1Hourly",
+                    "prices": {
+                      "USD": "0.095"
+                    }
+                  },
+                  {
+                    "name": "yrTerm3",
+                    "prices": {
+                      "USD": "770"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm3Hourly",
+                    "prices": {
+                      "USD": "0.046"
+                    }
+                  }
+                ],
+                "size": "db.m1.small"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "name": "yrTerm1",
+                    "prices": {
+                      "USD": "1,000"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm1Hourly",
+                    "prices": {
+                      "USD": "0.190"
+                    }
+                  },
+                  {
+                    "name": "yrTerm3",
+                    "prices": {
+                      "USD": "1,539"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm3Hourly",
+                    "prices": {
+                      "USD": "0.092"
+                    }
+                  }
+                ],
+                "size": "db.m1.medium"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "name": "yrTerm1",
+                    "prices": {
+                      "USD": "1,999"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm1Hourly",
+                    "prices": {
+                      "USD": "0.381"
+                    }
+                  },
+                  {
+                    "name": "yrTerm3",
+                    "prices": {
+                      "USD": "3,075"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm3Hourly",
+                    "prices": {
+                      "USD": "0.182"
+                    }
+                  }
+                ],
+                "size": "db.m1.large"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "name": "yrTerm1",
+                    "prices": {
+                      "USD": "3,977"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm1Hourly",
+                    "prices": {
+                      "USD": "0.758"
+                    }
+                  },
+                  {
+                    "name": "yrTerm3",
+                    "prices": {
+                      "USD": "6,151"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm3Hourly",
+                    "prices": {
+                      "USD": "0.362"
+                    }
+                  }
+                ],
+                "size": "db.m1.xlarge"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "name": "yrTerm1",
+                    "prices": {
+                      "USD": "2,394"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm1Hourly",
+                    "prices": {
+                      "USD": "0.464"
+                    }
+                  },
+                  {
+                    "name": "yrTerm3",
+                    "prices": {
+                      "USD": "3,635"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm3Hourly",
+                    "prices": {
+                      "USD": "0.350"
+                    }
+                  }
+                ],
+                "size": "db.m2.xlarge"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "name": "yrTerm1",
+                    "prices": {
+                      "USD": "4,787"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm1Hourly",
+                    "prices": {
+                      "USD": "0.928"
+                    }
+                  },
+                  {
+                    "name": "yrTerm3",
+                    "prices": {
+                      "USD": "7,269"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm3Hourly",
+                    "prices": {
+                      "USD": "0.700"
+                    }
+                  }
+                ],
+                "size": "db.m2.2xlarge"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "name": "yrTerm1",
+                    "prices": {
+                      "USD": "9,574"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm1Hourly",
+                    "prices": {
+                      "USD": "1.850"
+                    }
+                  },
+                  {
+                    "name": "yrTerm3",
+                    "prices": {
+                      "USD": "14,538"
+                    }
+                  },
+                  {
+                    "rate": "perhr",
+                    "name": "yrTerm3Hourly",
+                    "prices": {
+                      "USD": "1.396"
+                    }
+                  }
+                ],
+                "size": "db.m2.4xlarge"
+              }
+            ]
+          }
+        ],
+        "region": "sa-east-1"
+      }
+    ],
+    "valueColumns": [
+      "upfront",
+      "hourly",
+      "upfront",
+      "hourly"
+    ],
+    "currencies": [
+      "USD"
+    ]
+  }
+}

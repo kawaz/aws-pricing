@@ -1,0 +1,710 @@
+{
+  "vers": 0.01,
+  "config": {
+    "currencies": [
+      "USD"
+    ],
+    "valueColumns": [
+      "pricePerHour"
+    ],
+    "rate": "",
+    "regions": [
+      {
+        "region": "us-east",
+        "types": [
+          {
+            "name": "dbInstClass",
+            "tiers": [
+              {
+                "name": "db.t1.micro",
+                "prices": {
+                  "USD": "0.080"
+                }
+              },
+              {
+                "prices": {
+                  "USD": "0.540 "
+                },
+                "name": "db.m3.medium"
+              },
+              {
+                "prices": {
+                  "USD": " 1.090"
+                },
+                "name": "db.m3.large"
+              },
+              {
+                "prices": {
+                  "USD": " 2.180"
+                },
+                "name": "db.m3.xlarge"
+              },
+              {
+                "prices": {
+                  "USD": "4.350"
+                },
+                "name": "db.m3.2xlarge"
+              },
+              {
+                "name": "db.m1.small",
+                "prices": {
+                  "USD": "0.280"
+                }
+              },
+              {
+                "name": "db.m1.medium",
+                "prices": {
+                  "USD": "0.560"
+                }
+              },
+              {
+                "name": "db.m1.large",
+                "prices": {
+                  "USD": "1.130"
+                }
+              },
+              {
+                "name": "db.m1.xlarge",
+                "prices": {
+                  "USD": "2.260"
+                }
+              }
+            ]
+          },
+          {
+            "name": "hiMemDBInstClass",
+            "tiers": [
+              {
+                "name": "db.m2.xlarge",
+                "prices": {
+                  "USD": "1.570"
+                }
+              },
+              {
+                "name": "db.m2.2xlarge",
+                "prices": {
+                  "USD": "3.140"
+                }
+              },
+              {
+                "name": "db.m2.4xlarge",
+                "prices": {
+                  "USD": "6.280"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "region": "us-west-2",
+        "types": [
+          {
+            "name": "dbInstClass",
+            "tiers": [
+              {
+                "name": "db.t1.micro",
+                "prices": {
+                  "USD": "0.080"
+                }
+              },
+              {
+                "prices": {
+                  "USD": " 0.540"
+                },
+                "name": "db.m3.medium"
+              },
+              {
+                "prices": {
+                  "USD": " 1.090"
+                },
+                "name": "db.m3.large"
+              },
+              {
+                "prices": {
+                  "USD": " 2.180"
+                },
+                "name": "db.m3.xlarge"
+              },
+              {
+                "prices": {
+                  "USD": "4.350"
+                },
+                "name": "db.m3.2xlarge"
+              },
+              {
+                "name": "db.m1.small",
+                "prices": {
+                  "USD": "0.280"
+                }
+              },
+              {
+                "name": "db.m1.medium",
+                "prices": {
+                  "USD": "0.560"
+                }
+              },
+              {
+                "name": "db.m1.large",
+                "prices": {
+                  "USD": "1.130"
+                }
+              },
+              {
+                "name": "db.m1.xlarge",
+                "prices": {
+                  "USD": "2.260"
+                }
+              }
+            ]
+          },
+          {
+            "name": "hiMemDBInstClass",
+            "tiers": [
+              {
+                "name": "db.m2.xlarge",
+                "prices": {
+                  "USD": "1.570"
+                }
+              },
+              {
+                "name": "db.m2.2xlarge",
+                "prices": {
+                  "USD": "3.140"
+                }
+              },
+              {
+                "name": "db.m2.4xlarge",
+                "prices": {
+                  "USD": "6.280"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "region": "us-west",
+        "types": [
+          {
+            "name": "dbInstClass",
+            "tiers": [
+              {
+                "name": "db.t1.micro",
+                "prices": {
+                  "USD": "0.100"
+                }
+              },
+              {
+                "prices": {
+                  "USD": "0.620"
+                },
+                "name": "db.m3.medium"
+              },
+              {
+                "prices": {
+                  "USD": "1.280"
+                },
+                "name": "db.m3.large"
+              },
+              {
+                "prices": {
+                  "USD": "2.570"
+                },
+                "name": "db.m3.xlarge"
+              },
+              {
+                "prices": {
+                  "USD": "5.130"
+                },
+                "name": "db.m3.2xlarge"
+              },
+              {
+                "name": "db.m1.small",
+                "prices": {
+                  "USD": "0.330"
+                }
+              },
+              {
+                "name": "db.m1.medium",
+                "prices": {
+                  "USD": "0.640"
+                }
+              },
+              {
+                "name": "db.m1.large",
+                "prices": {
+                  "USD": "1.310"
+                }
+              },
+              {
+                "name": "db.m1.xlarge",
+                "prices": {
+                  "USD": "2.640"
+                }
+              }
+            ]
+          },
+          {
+            "name": "hiMemDBInstClass",
+            "tiers": [
+              {
+                "name": "db.m2.xlarge",
+                "prices": {
+                  "USD": "1.710"
+                }
+              },
+              {
+                "name": "db.m2.2xlarge",
+                "prices": {
+                  "USD": "3.430"
+                }
+              },
+              {
+                "name": "db.m2.4xlarge",
+                "prices": {
+                  "USD": "6.860"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "region": "eu-ireland",
+        "types": [
+          {
+            "name": "dbInstClass",
+            "tiers": [
+              {
+                "name": "db.t1.micro",
+                "prices": {
+                  "USD": "0.100"
+                }
+              },
+              {
+                "prices": {
+                  "USD": "0.620"
+                },
+                "name": "db.m3.medium"
+              },
+              {
+                "prices": {
+                  "USD": "1.280"
+                },
+                "name": "db.m3.large"
+              },
+              {
+                "prices": {
+                  "USD": "2.570"
+                },
+                "name": "db.m3.xlarge"
+              },
+              {
+                "prices": {
+                  "USD": "5.130"
+                },
+                "name": "db.m3.2xlarge"
+              },
+              {
+                "name": "db.m1.small",
+                "prices": {
+                  "USD": "0.330"
+                }
+              },
+              {
+                "name": "db.m1.medium",
+                "prices": {
+                  "USD": "0.640"
+                }
+              },
+              {
+                "name": "db.m1.large",
+                "prices": {
+                  "USD": "1.310"
+                }
+              },
+              {
+                "name": "db.m1.xlarge",
+                "prices": {
+                  "USD": "2.640"
+                }
+              }
+            ]
+          },
+          {
+            "name": "hiMemDBInstClass",
+            "tiers": [
+              {
+                "name": "db.m2.xlarge",
+                "prices": {
+                  "USD": "1.710"
+                }
+              },
+              {
+                "name": "db.m2.2xlarge",
+                "prices": {
+                  "USD": "3.430"
+                }
+              },
+              {
+                "name": "db.m2.4xlarge",
+                "prices": {
+                  "USD": "6.860"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "region": "apac-sin",
+        "types": [
+          {
+            "name": "dbInstClass",
+            "tiers": [
+              {
+                "name": "db.t1.micro",
+                "prices": {
+                  "USD": "0.100"
+                }
+              },
+              {
+                "prices": {
+                  "USD": " 0.630"
+                },
+                "name": "db.m3.medium"
+              },
+              {
+                "prices": {
+                  "USD": " 1.290"
+                },
+                "name": "db.m3.large"
+              },
+              {
+                "prices": {
+                  "USD": "2.600"
+                },
+                "name": "db.m3.xlarge"
+              },
+              {
+                "prices": {
+                  "USD": "5.190"
+                },
+                "name": "db.m3.2xlarge"
+              },
+              {
+                "name": "db.m1.small",
+                "prices": {
+                  "USD": "0.330"
+                }
+              },
+              {
+                "name": "db.m1.medium",
+                "prices": {
+                  "USD": "0.640"
+                }
+              },
+              {
+                "name": "db.m1.large",
+                "prices": {
+                  "USD": "1.310"
+                }
+              },
+              {
+                "name": "db.m1.xlarge",
+                "prices": {
+                  "USD": "2.640"
+                }
+              }
+            ]
+          },
+          {
+            "name": "hiMemDBInstClass",
+            "tiers": [
+              {
+                "name": "db.m2.xlarge",
+                "prices": {
+                  "USD": "1.710"
+                }
+              },
+              {
+                "name": "db.m2.2xlarge",
+                "prices": {
+                  "USD": "3.430"
+                }
+              },
+              {
+                "name": "db.m2.4xlarge",
+                "prices": {
+                  "USD": "6.860"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "region": "apac-tokyo",
+        "types": [
+          {
+            "name": "dbInstClass",
+            "tiers": [
+              {
+                "name": "db.t1.micro",
+                "prices": {
+                  "USD": "0.100"
+                }
+              },
+              {
+                "prices": {
+                  "USD": "0.670"
+                },
+                "name": "db.m3.medium"
+              },
+              {
+                "prices": {
+                  "USD": "1.330"
+                },
+                "name": "db.m3.large"
+              },
+              {
+                "prices": {
+                  "USD": "2.660"
+                },
+                "name": "db.m3.xlarge"
+              },
+              {
+                "prices": {
+                  "USD": "5.310"
+                },
+                "name": "db.m3.2xlarge"
+              },
+              {
+                "name": "db.m1.small",
+                "prices": {
+                  "USD": "0.340"
+                }
+              },
+              {
+                "name": "db.m1.medium",
+                "prices": {
+                  "USD": "0.680"
+                }
+              },
+              {
+                "name": "db.m1.large",
+                "prices": {
+                  "USD": "1.360"
+                }
+              },
+              {
+                "name": "db.m1.xlarge",
+                "prices": {
+                  "USD": "2.710"
+                }
+              }
+            ]
+          },
+          {
+            "name": "hiMemDBInstClass",
+            "tiers": [
+              {
+                "name": "db.m2.xlarge",
+                "prices": {
+                  "USD": "1.770"
+                }
+              },
+              {
+                "name": "db.m2.2xlarge",
+                "prices": {
+                  "USD": "3.540"
+                }
+              },
+              {
+                "name": "db.m2.4xlarge",
+                "prices": {
+                  "USD": "7.090"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "region": "apac-syd",
+        "types": [
+          {
+            "name": "dbInstClass",
+            "tiers": [
+              {
+                "name": "db.t1.micro",
+                "prices": {
+                  "USD": "0.100"
+                }
+              },
+              {
+                "prices": {
+                  "USD": "0.630"
+                },
+                "name": "db.m3.medium"
+              },
+              {
+                "prices": {
+                  "USD": "1.290"
+                },
+                "name": "db.m3.large"
+              },
+              {
+                "prices": {
+                  "USD": "2.600"
+                },
+                "name": "db.m3.xlarge"
+              },
+              {
+                "prices": {
+                  "USD": "5.190"
+                },
+                "name": "db.m3.2xlarge"
+              },
+              {
+                "name": "db.m1.small",
+                "prices": {
+                  "USD": "0.330"
+                }
+              },
+              {
+                "name": "db.m1.medium",
+                "prices": {
+                  "USD": "0.640"
+                }
+              },
+              {
+                "name": "db.m1.large",
+                "prices": {
+                  "USD": "1.310"
+                }
+              },
+              {
+                "name": "db.m1.xlarge",
+                "prices": {
+                  "USD": "2.640"
+                }
+              }
+            ]
+          },
+          {
+            "name": "hiMemDBInstClass",
+            "tiers": [
+              {
+                "name": "db.m2.xlarge",
+                "prices": {
+                  "USD": "1.710"
+                }
+              },
+              {
+                "name": "db.m2.2xlarge",
+                "prices": {
+                  "USD": "3.430"
+                }
+              },
+              {
+                "name": "db.m2.4xlarge",
+                "prices": {
+                  "USD": "6.860"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "region": "sa-east-1",
+        "types": [
+          {
+            "name": "dbInstClass",
+            "tiers": [
+              {
+                "name": "db.t1.micro",
+                "prices": {
+                  "USD": "0.100"
+                }
+              },
+              {
+                "prices": {
+                  "USD": "0.620"
+                },
+                "name": "db.m3.medium"
+              },
+              {
+                "prices": {
+                  "USD": "1.270"
+                },
+                "name": "db.m3.large"
+              },
+              {
+                "prices": {
+                  "USD": " 2.560"
+                },
+                "name": "db.m3.xlarge"
+              },
+              {
+                "prices": {
+                  "USD": " 5.120"
+                },
+                "name": "db.m3.2xlarge"
+              },
+              {
+                "name": "db.m1.small",
+                "prices": {
+                  "USD": "0.400"
+                }
+              },
+              {
+                "name": "db.m1.medium",
+                "prices": {
+                  "USD": "0.800"
+                }
+              },
+              {
+                "name": "db.m1.large",
+                "prices": {
+                  "USD": "1.600"
+                }
+              },
+              {
+                "name": "db.m1.xlarge",
+                "prices": {
+                  "USD": "3.200"
+                }
+              }
+            ]
+          },
+          {
+            "name": "hiMemDBInstClass",
+            "tiers": [
+              {
+                "name": "db.m2.xlarge",
+                "prices": {
+                  "USD": "2.160"
+                }
+              },
+              {
+                "name": "db.m2.2xlarge",
+                "prices": {
+                  "USD": "4.320"
+                }
+              },
+              {
+                "name": "db.m2.4xlarge",
+                "prices": {
+                  "USD": "8.640"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

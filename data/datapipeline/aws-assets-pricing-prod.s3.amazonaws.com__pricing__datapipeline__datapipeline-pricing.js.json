@@ -1,0 +1,226 @@
+{
+  "vers": 0.01,
+  "config": {
+    "currencies": [
+      "USD"
+    ],
+    "rate": "perMo",
+    "valueColumns": [
+      "highFrequency",
+      "lowFrequency"
+    ],
+    "footnotes": {},
+    "regions": [
+      {
+        "region": "us-east",
+        "footnotes": {
+          "": "inactive"
+        },
+        "tiers": [
+          {
+            "name": "runningOnAWS",
+            "storageTypes": [
+              {
+                "type": "highFrequency",
+                "prices": {
+                  "USD": "1.00"
+                }
+              },
+              {
+                "type": "lowFrequency",
+                "prices": {
+                  "USD": "0.60"
+                }
+              }
+            ]
+          },
+          {
+            "name": "runningOnPremise",
+            "storageTypes": [
+              {
+                "type": "highFrequency",
+                "prices": {
+                  "USD": "2.50"
+                }
+              },
+              {
+                "type": "lowFrequency",
+                "prices": {
+                  "USD": "1.50"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "region": "us-west-2",
+        "footnotes": {
+          "": "inactive"
+        },
+        "tiers": [
+          {
+            "name": "runningOnAWS",
+            "storageTypes": [
+              {
+                "type": "highFrequency",
+                "prices": {
+                  "USD": "1.00"
+                }
+              },
+              {
+                "type": "lowFrequency",
+                "prices": {
+                  "USD": "0.60"
+                }
+              }
+            ]
+          },
+          {
+            "name": "runningOnPremise",
+            "storageTypes": [
+              {
+                "type": "highFrequency",
+                "prices": {
+                  "USD": "2.50"
+                }
+              },
+              {
+                "type": "lowFrequency",
+                "prices": {
+                  "USD": "1.50"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "region": "eu-ireland",
+        "footnotes": {
+          "": "inactive"
+        },
+        "tiers": [
+          {
+            "name": "runningOnAWS",
+            "storageTypes": [
+              {
+                "type": "highFrequency",
+                "prices": {
+                  "USD": "1.00"
+                }
+              },
+              {
+                "type": "lowFrequency",
+                "prices": {
+                  "USD": "0.60"
+                }
+              }
+            ]
+          },
+          {
+            "name": "runningOnPremise",
+            "storageTypes": [
+              {
+                "type": "highFrequency",
+                "prices": {
+                  "USD": "2.50"
+                }
+              },
+              {
+                "type": "lowFrequency",
+                "prices": {
+                  "USD": "1.50"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "region": "apac-tokyo",
+        "footnotes": {
+          "": "inactive"
+        },
+        "tiers": [
+          {
+            "name": "runningOnAWS",
+            "storageTypes": [
+              {
+                "type": "highFrequency",
+                "prices": {
+                  "USD": "1.00"
+                }
+              },
+              {
+                "type": "lowFrequency",
+                "prices": {
+                  "USD": "0.60"
+                }
+              }
+            ]
+          },
+          {
+            "name": "runningOnPremise",
+            "storageTypes": [
+              {
+                "type": "highFrequency",
+                "prices": {
+                  "USD": "2.50"
+                }
+              },
+              {
+                "type": "lowFrequency",
+                "prices": {
+                  "USD": "1.50"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "region": "apac-syd",
+        "footnotes": {
+          "": "inactive"
+        },
+        "tiers": [
+          {
+            "name": "runningOnAWS",
+            "storageTypes": [
+              {
+                "type": "highFrequency",
+                "prices": {
+                  "USD": "1.00"
+                }
+              },
+              {
+                "type": "lowFrequency",
+                "prices": {
+                  "USD": "0.60"
+                }
+              }
+            ]
+          },
+          {
+            "name": "runningOnPremise",
+            "storageTypes": [
+              {
+                "type": "highFrequency",
+                "prices": {
+                  "USD": "2.50"
+                }
+              },
+              {
+                "type": "lowFrequency",
+                "prices": {
+                  "USD": "1.50"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

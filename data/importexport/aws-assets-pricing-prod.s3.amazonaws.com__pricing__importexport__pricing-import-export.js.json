@@ -1,0 +1,105 @@
+{
+  "vers": 0.01,
+  "config": {
+    "currencies": [
+      "USD"
+    ],
+    "regions": [
+      {
+        "region": "us-east",
+        "types": {
+          "deviceHandling": {
+            "prices": {
+              "USD": "80.00"
+            },
+            "rate": "perStorageDevice"
+          },
+          "dataLoadingTime": {
+            "prices": {
+              "USD": "2.49"
+            },
+            "rate": "perDataLoadingHour"
+          },
+          "returnShipping": "returnShippingTextUS",
+          "s3Charges": "s3ChargesText"
+        }
+      },
+      {
+        "region": "us-west-2",
+        "types": {
+          "deviceHandling": {
+            "prices": {
+              "USD": "80.00"
+            },
+            "rate": "perStorageDevice"
+          },
+          "dataLoadingTime": {
+            "prices": {
+              "USD": "2.49"
+            },
+            "rate": "perDataLoadingHour"
+          },
+          "returnShipping": "returnShippingTextUS",
+          "s3Charges": "s3ChargesText"
+        }
+      },
+      {
+        "region": "us-west",
+        "types": {
+          "deviceHandling": {
+            "prices": {
+              "USD": "80.00"
+            },
+            "rate": "perStorageDevice"
+          },
+          "dataLoadingTime": {
+            "prices": {
+              "USD": "2.49"
+            },
+            "rate": "perDataLoadingHour"
+          },
+          "returnShipping": "returnShippingTextUS",
+          "s3Charges": "s3ChargesText"
+        }
+      },
+      {
+        "region": "eu-ireland",
+        "types": {
+          "deviceHandling": {
+            "prices": {
+              "USD": "80.00"
+            },
+            "rate": "perStorageDevice"
+          },
+          "dataLoadingTime": {
+            "prices": {
+              "USD": "2.49"
+            },
+            "rate": "perDataLoadingHour"
+          },
+          "returnShipping": "returnShippingTextEU-Ireland",
+          "s3Charges": "s3ChargesText"
+        }
+      },
+      {
+        "region": "apac-sin",
+        "types": {
+          "deviceHandling": {
+            "prices": {
+              "USD": "99.00"
+            },
+            "rate": "perStorageDevice"
+          },
+          "dataLoadingTime": {
+            "prices": {
+              "USD": "2.99"
+            },
+            "rate": "perDataLoadingHour"
+          },
+          "returnShipping": "returnShippingTextAPAC-Singapore",
+          "s3Charges": "s3ChargesText"
+        }
+      }
+    ]
+  }
+}

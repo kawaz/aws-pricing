@@ -1,0 +1,328 @@
+{
+  "vers": 0.01,
+  "config": {
+    "currencies": [
+      "USD"
+    ],
+    "valueColumns": [
+      "pricing"
+    ],
+    "regions": [
+      {
+        "region": "us-east",
+        "footnotes": {
+          "†": "chargesForGlacierDeletes03",
+          "††": "glacierNotes01"
+        },
+        "tiers": [
+          {
+            "name": "putcopypost",
+            "prices": {
+              "USD": "0.005"
+            },
+            "rate": "per1kReq"
+          },
+          {
+            "name": "glacierRequests",
+            "prices": {
+              "USD": "0.05"
+            },
+            "rate": "per1kReq"
+          },
+          {
+            "name": "deleteRequests",
+            "prices": {
+              "USD": "Free †"
+            },
+            "rate": "per1kReq"
+          },
+          {
+            "name": "getEtc",
+            "prices": {
+              "USD": "0.004"
+            },
+            "rate": "per10kReq"
+          },
+          {
+            "name": "glacierDataRestore",
+            "prices": {
+              "USD": "Free ††"
+            }
+          }
+        ]
+      },
+      {
+        "region": "us-west-2",
+        "footnotes": {
+          "†": "chargesForGlacierDeletes03",
+          "††": "glacierNotes01"
+        },
+        "tiers": [
+          {
+            "name": "putcopypost",
+            "prices": {
+              "USD": "0.005"
+            },
+            "rate": "per1kReq"
+          },
+          {
+            "name": "glacierRequests",
+            "prices": {
+              "USD": "0.05"
+            },
+            "rate": "per1kReq"
+          },
+          {
+            "name": "deleteRequests",
+            "prices": {
+              "USD": "Free †"
+            },
+            "rate": "per1kReq"
+          },
+          {
+            "name": "getEtc",
+            "prices": {
+              "USD": "0.004"
+            },
+            "rate": "per10kReq"
+          },
+          {
+            "name": "glacierDataRestore",
+            "prices": {
+              "USD": "Free ††"
+            }
+          }
+        ]
+      },
+      {
+        "region": "us-west",
+        "footnotes": {
+          "†": "chargesForGlacierDeletes033",
+          "††": "glacierNotes011"
+        },
+        "tiers": [
+          {
+            "name": "putcopypost",
+            "prices": {
+              "USD": "0.0055"
+            },
+            "rate": "per1kReq"
+          },
+          {
+            "name": "glacierRequests",
+            "prices": {
+              "USD": "0.055"
+            },
+            "rate": "per1kReq"
+          },
+          {
+            "name": "deleteRequests",
+            "prices": {
+              "USD": "Free †"
+            },
+            "rate": "per1kReq"
+          },
+          {
+            "name": "getEtc",
+            "prices": {
+              "USD": "0.0044"
+            },
+            "rate": "per10kReq"
+          },
+          {
+            "name": "glacierDataRestore",
+            "prices": {
+              "USD": "Free ††"
+            }
+          }
+        ]
+      },
+      {
+        "region": "eu-ireland",
+        "footnotes": {
+          "†": "chargesForGlacierDeletes033",
+          "††": "glacierNotes011"
+        },
+        "tiers": [
+          {
+            "name": "putcopypost",
+            "prices": {
+              "USD": "0.005"
+            },
+            "rate": "per1kReq"
+          },
+          {
+            "name": "glacierRequests",
+            "prices": {
+              "USD": "0.055"
+            },
+            "rate": "per1kReq"
+          },
+          {
+            "name": "deleteRequests",
+            "prices": {
+              "USD": "Free †"
+            },
+            "rate": "per1kReq"
+          },
+          {
+            "name": "getEtc",
+            "prices": {
+              "USD": "0.004"
+            },
+            "rate": "per10kReq"
+          },
+          {
+            "name": "glacierDataRestore",
+            "prices": {
+              "USD": "Free ††"
+            }
+          }
+        ]
+      },
+      {
+        "region": "apac-sin",
+        "footnotes": {
+          "†": "noChargeForDeletes"
+        },
+        "tiers": [
+          {
+            "name": "putcopypost",
+            "prices": {
+              "USD": "0.005"
+            },
+            "rate": "per1kReq"
+          },
+          {
+            "name": "deleteRequests",
+            "prices": {
+              "USD": "Free †"
+            },
+            "rate": "per1kReq"
+          },
+          {
+            "name": "getEtc",
+            "prices": {
+              "USD": "0.004"
+            },
+            "rate": "per10kReq"
+          }
+        ]
+      },
+      {
+        "region": "apac-tokyo",
+        "footnotes": {
+          "†": "chargesForGlacierDeletes036",
+          "††": "glacierNotes012"
+        },
+        "tiers": [
+          {
+            "name": "putcopypost",
+            "prices": {
+              "USD": "0.005"
+            },
+            "rate": "per1kReq"
+          },
+          {
+            "name": "glacierRequests",
+            "prices": {
+              "USD": "0.060"
+            },
+            "rate": "per1kReq"
+          },
+          {
+            "name": "deleteRequests",
+            "prices": {
+              "USD": "Free †"
+            },
+            "rate": "per1kReq"
+          },
+          {
+            "name": "getEtc",
+            "prices": {
+              "USD": "0.004"
+            },
+            "rate": "per10kReq"
+          },
+          {
+            "name": "glacierDataRestore",
+            "prices": {
+              "USD": "Free ††"
+            }
+          }
+        ]
+      },
+      {
+        "region": "apac-syd",
+        "footnotes": {
+          "†": "chargesForGlacierDeletes036",
+          "††": "glacierNotes012"
+        },
+        "tiers": [
+          {
+            "name": "putcopypost",
+            "prices": {
+              "USD": "0.0055"
+            },
+            "rate": "per1kReq"
+          },
+          {
+            "name": "glacierRequests",
+            "prices": {
+              "USD": "0.060"
+            },
+            "rate": "per1kReq"
+          },
+          {
+            "name": "deleteRequests",
+            "prices": {
+              "USD": "Free †"
+            }
+          },
+          {
+            "name": "getEtc",
+            "prices": {
+              "USD": "0.0044"
+            },
+            "rate": "per10kReq"
+          },
+          {
+            "name": "glacierDataRestore",
+            "prices": {
+              "USD": "Free ††"
+            }
+          }
+        ]
+      },
+      {
+        "region": "sa-east-1",
+        "footnotes": {
+          "†": "noChargeForDeletes"
+        },
+        "tiers": [
+          {
+            "name": "putcopypost",
+            "prices": {
+              "USD": "0.007"
+            },
+            "rate": "per1kReq"
+          },
+          {
+            "name": "deleteRequests",
+            "prices": {
+              "USD": "Free †"
+            },
+            "rate": "per1kReq"
+          },
+          {
+            "name": "getEtc",
+            "prices": {
+              "USD": "0.0056"
+            },
+            "rate": "per10kReq"
+          }
+        ]
+      }
+    ]
+  }
+}

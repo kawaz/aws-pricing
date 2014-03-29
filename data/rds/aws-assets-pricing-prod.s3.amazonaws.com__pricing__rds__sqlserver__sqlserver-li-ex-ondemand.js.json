@@ -1,0 +1,230 @@
+{
+  "vers": 0.01,
+  "config": {
+    "regions": [
+      {
+        "region": "us-east",
+        "types": [
+          {
+            "tiers": [
+              {
+                "prices": {
+                  "USD": "0.024"
+                },
+                "name": "db.t1.micro"
+              }
+            ],
+            "name": "udbInstClass"
+          },
+          {
+            "tiers": [
+              {
+                "prices": {
+                  "USD": "0.111"
+                },
+                "name": "db.m1.small"
+              }
+            ],
+            "name": "dbInstClass"
+          }
+        ]
+      },
+      {
+        "region": "us-west-2",
+        "types": [
+          {
+            "tiers": [
+              {
+                "prices": {
+                  "USD": "0.024"
+                },
+                "name": "db.t1.micro"
+              }
+            ],
+            "name": "udbInstClass"
+          },
+          {
+            "tiers": [
+              {
+                "prices": {
+                  "USD": "0.111"
+                },
+                "name": "db.m1.small"
+              }
+            ],
+            "name": "dbInstClass"
+          }
+        ]
+      },
+      {
+        "region": "us-west",
+        "types": [
+          {
+            "tiers": [
+              {
+                "prices": {
+                  "USD": "0.043"
+                },
+                "name": "db.t1.micro"
+              }
+            ],
+            "name": "udbInstClass"
+          },
+          {
+            "tiers": [
+              {
+                "prices": {
+                  "USD": "0.118"
+                },
+                "name": "db.m1.small"
+              }
+            ],
+            "name": "dbInstClass"
+          }
+        ]
+      },
+      {
+        "region": "eu-ireland",
+        "types": [
+          {
+            "tiers": [
+              {
+                "prices": {
+                  "USD": "0.043"
+                },
+                "name": "db.t1.micro"
+              }
+            ],
+            "name": "udbInstClass"
+          },
+          {
+            "tiers": [
+              {
+                "prices": {
+                  "USD": "0.112"
+                },
+                "name": "db.m1.small"
+              }
+            ],
+            "name": "dbInstClass"
+          }
+        ]
+      },
+      {
+        "region": "apac-sin",
+        "types": [
+          {
+            "tiers": [
+              {
+                "prices": {
+                  "USD": "0.024"
+                },
+                "name": "db.t1.micro"
+              }
+            ],
+            "name": "udbInstClass"
+          },
+          {
+            "tiers": [
+              {
+                "prices": {
+                  "USD": "0.142"
+                },
+                "name": "db.m1.small"
+              }
+            ],
+            "name": "dbInstClass"
+          }
+        ]
+      },
+      {
+        "region": "apac-tokyo",
+        "types": [
+          {
+            "tiers": [
+              {
+                "prices": {
+                  "USD": "0.044"
+                },
+                "name": "db.t1.micro"
+              }
+            ],
+            "name": "udbInstClass"
+          },
+          {
+            "tiers": [
+              {
+                "prices": {
+                  "USD": "0.144"
+                },
+                "name": "db.m1.small"
+              }
+            ],
+            "name": "dbInstClass"
+          }
+        ]
+      },
+      {
+        "region": "apac-syd",
+        "types": [
+          {
+            "tiers": [
+              {
+                "prices": {
+                  "USD": "0.024"
+                },
+                "name": "db.t1.micro"
+              }
+            ],
+            "name": "udbInstClass"
+          },
+          {
+            "tiers": [
+              {
+                "prices": {
+                  "USD": "0.142"
+                },
+                "name": "db.m1.small"
+              }
+            ],
+            "name": "dbInstClass"
+          }
+        ]
+      },
+      {
+        "region": "sa-east-1",
+        "types": [
+          {
+            "tiers": [
+              {
+                "prices": {
+                  "USD": "0.045"
+                },
+                "name": "db.t1.micro"
+              }
+            ],
+            "name": "udbInstClass"
+          },
+          {
+            "tiers": [
+              {
+                "prices": {
+                  "USD": "0.134"
+                },
+                "name": "db.m1.small"
+              }
+            ],
+            "name": "dbInstClass"
+          }
+        ]
+      }
+    ],
+    "rate": "",
+    "currencies": [
+      "USD"
+    ],
+    "valueColumns": [
+      "pricePerHour"
+    ]
+  }
+}
