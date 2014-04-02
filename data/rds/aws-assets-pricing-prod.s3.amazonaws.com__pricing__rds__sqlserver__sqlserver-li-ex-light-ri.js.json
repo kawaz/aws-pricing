@@ -1,0 +1,592 @@
+{
+  "vers": 0.01,
+  "config": {
+    "regions": [
+      {
+        "region": "us-east",
+        "instanceTypes": [
+          {
+            "tiers": [
+              {
+                "valueColumns": [
+                  {
+                    "prices": {
+                      "USD": "23"
+                    },
+                    "name": "yrTerm1"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.022"
+                    },
+                    "rate": "perhr",
+                    "name": "yearTerm1Hourly"
+                  },
+                  {
+                    "prices": {
+                      "USD": "35"
+                    },
+                    "name": "yrTerm3"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.022"
+                    },
+                    "rate": "perhr",
+                    "name": "yearTerm3Hourly"
+                  }
+                ],
+                "size": "db.t1.micro"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "prices": {
+                      "USD": "69"
+                    },
+                    "name": "yrTerm1"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.073"
+                    },
+                    "rate": "perhr",
+                    "name": "yearTerm1Hourly"
+                  },
+                  {
+                    "prices": {
+                      "USD": "106"
+                    },
+                    "name": "yrTerm3"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.062"
+                    },
+                    "rate": "perhr",
+                    "name": "yearTerm3Hourly"
+                  }
+                ],
+                "size": "db.m1.small"
+              }
+            ],
+            "type": "stdDeployRes"
+          }
+        ]
+      },
+      {
+        "region": "us-west-2",
+        "instanceTypes": [
+          {
+            "tiers": [
+              {
+                "valueColumns": [
+                  {
+                    "prices": {
+                      "USD": "23"
+                    },
+                    "name": "yrTerm1"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.022"
+                    },
+                    "rate": "perhr",
+                    "name": "yearTerm1Hourly"
+                  },
+                  {
+                    "prices": {
+                      "USD": "35"
+                    },
+                    "name": "yrTerm3"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.022"
+                    },
+                    "rate": "perhr",
+                    "name": "yearTerm3Hourly"
+                  }
+                ],
+                "size": "db.t1.micro"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "prices": {
+                      "USD": "69"
+                    },
+                    "name": "yrTerm1"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.073"
+                    },
+                    "rate": "perhr",
+                    "name": "yearTerm1Hourly"
+                  },
+                  {
+                    "prices": {
+                      "USD": "106"
+                    },
+                    "name": "yrTerm3"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.062"
+                    },
+                    "rate": "perhr",
+                    "name": "yearTerm3Hourly"
+                  }
+                ],
+                "size": "db.m1.small"
+              }
+            ],
+            "type": "stdDeployRes"
+          }
+        ]
+      },
+      {
+        "region": "us-west",
+        "instanceTypes": [
+          {
+            "tiers": [
+              {
+                "valueColumns": [
+                  {
+                    "prices": {
+                      "USD": "23"
+                    },
+                    "name": "yrTerm1"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.026"
+                    },
+                    "rate": "perhr",
+                    "name": "yearTerm1Hourly"
+                  },
+                  {
+                    "prices": {
+                      "USD": "35"
+                    },
+                    "name": "yrTerm3"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.026"
+                    },
+                    "rate": "perhr",
+                    "name": "yearTerm3Hourly"
+                  }
+                ],
+                "size": "db.t1.micro"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "prices": {
+                      "USD": "69"
+                    },
+                    "name": "yrTerm1"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.086"
+                    },
+                    "rate": "perhr",
+                    "name": "yearTerm1Hourly"
+                  },
+                  {
+                    "prices": {
+                      "USD": "106"
+                    },
+                    "name": "yrTerm3"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.072"
+                    },
+                    "rate": "perhr",
+                    "name": "yearTerm3Hourly"
+                  }
+                ],
+                "size": "db.m1.small"
+              }
+            ],
+            "type": "stdDeployRes"
+          }
+        ]
+      },
+      {
+        "region": "eu-ireland",
+        "instanceTypes": [
+          {
+            "tiers": [
+              {
+                "valueColumns": [
+                  {
+                    "prices": {
+                      "USD": "23"
+                    },
+                    "name": "yrTerm1"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.026"
+                    },
+                    "rate": "perhr",
+                    "name": "yearTerm1Hourly"
+                  },
+                  {
+                    "prices": {
+                      "USD": "35"
+                    },
+                    "name": "yrTerm3"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.026"
+                    },
+                    "rate": "perhr",
+                    "name": "yearTerm3Hourly"
+                  }
+                ],
+                "size": "db.t1.micro"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "prices": {
+                      "USD": "69"
+                    },
+                    "name": "yrTerm1"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.086"
+                    },
+                    "rate": "perhr",
+                    "name": "yearTerm1Hourly"
+                  },
+                  {
+                    "prices": {
+                      "USD": "106"
+                    },
+                    "name": "yrTerm3"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.072"
+                    },
+                    "rate": "perhr",
+                    "name": "yearTerm3Hourly"
+                  }
+                ],
+                "size": "db.m1.small"
+              }
+            ],
+            "type": "stdDeployRes"
+          }
+        ]
+      },
+      {
+        "region": "apac-sin",
+        "instanceTypes": [
+          {
+            "tiers": [
+              {
+                "valueColumns": [
+                  {
+                    "prices": {
+                      "USD": "23"
+                    },
+                    "name": "yrTerm1"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.026"
+                    },
+                    "rate": "perhr",
+                    "name": "yearTerm1Hourly"
+                  },
+                  {
+                    "prices": {
+                      "USD": "35"
+                    },
+                    "name": "yrTerm3"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.026"
+                    },
+                    "rate": "perhr",
+                    "name": "yearTerm3Hourly"
+                  }
+                ],
+                "size": "db.t1.micro"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "prices": {
+                      "USD": "69"
+                    },
+                    "name": "yrTerm1"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.086"
+                    },
+                    "rate": "perhr",
+                    "name": "yearTerm1Hourly"
+                  },
+                  {
+                    "prices": {
+                      "USD": "106"
+                    },
+                    "name": "yrTerm3"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.072"
+                    },
+                    "rate": "perhr",
+                    "name": "yearTerm3Hourly"
+                  }
+                ],
+                "size": "db.m1.small"
+              }
+            ],
+            "type": "stdDeployRes"
+          }
+        ]
+      },
+      {
+        "region": "apac-tokyo",
+        "instanceTypes": [
+          {
+            "tiers": [
+              {
+                "valueColumns": [
+                  {
+                    "prices": {
+                      "USD": "24"
+                    },
+                    "name": "yrTerm1"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.033"
+                    },
+                    "rate": "perhr",
+                    "name": "yearTerm1Hourly"
+                  },
+                  {
+                    "prices": {
+                      "USD": "37"
+                    },
+                    "name": "yrTerm3"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.033"
+                    },
+                    "rate": "perhr",
+                    "name": "yearTerm3Hourly"
+                  }
+                ],
+                "size": "db.t1.micro"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "prices": {
+                      "USD": "72"
+                    },
+                    "name": "yrTerm1"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.096"
+                    },
+                    "rate": "perhr",
+                    "name": "yearTerm1Hourly"
+                  },
+                  {
+                    "prices": {
+                      "USD": "112"
+                    },
+                    "name": "yrTerm3"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.080"
+                    },
+                    "rate": "perhr",
+                    "name": "yearTerm3Hourly"
+                  }
+                ],
+                "size": "db.m1.small"
+              }
+            ],
+            "type": "stdDeployRes"
+          }
+        ]
+      },
+      {
+        "region": "apac-syd",
+        "instanceTypes": [
+          {
+            "tiers": [
+              {
+                "valueColumns": [
+                  {
+                    "prices": {
+                      "USD": "23"
+                    },
+                    "name": "yrTerm1"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.026"
+                    },
+                    "rate": "perhr",
+                    "name": "yearTerm1Hourly"
+                  },
+                  {
+                    "prices": {
+                      "USD": "35"
+                    },
+                    "name": "yrTerm3"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.026"
+                    },
+                    "rate": "perhr",
+                    "name": "yearTerm3Hourly"
+                  }
+                ],
+                "size": "db.t1.micro"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "prices": {
+                      "USD": "69"
+                    },
+                    "name": "yrTerm1"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.086"
+                    },
+                    "rate": "perhr",
+                    "name": "yearTerm1Hourly"
+                  },
+                  {
+                    "prices": {
+                      "USD": "106"
+                    },
+                    "name": "yrTerm3"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.072"
+                    },
+                    "rate": "perhr",
+                    "name": "yearTerm3Hourly"
+                  }
+                ],
+                "size": "db.m1.small"
+              }
+            ],
+            "type": "stdDeployRes"
+          }
+        ]
+      },
+      {
+        "region": "sa-east-1",
+        "instanceTypes": [
+          {
+            "tiers": [
+              {
+                "valueColumns": [
+                  {
+                    "prices": {
+                      "USD": "31"
+                    },
+                    "name": "yrTerm1"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.028"
+                    },
+                    "rate": "perhr",
+                    "name": "yearTerm1Hourly"
+                  },
+                  {
+                    "prices": {
+                      "USD": "47"
+                    },
+                    "name": "yrTerm3"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.027"
+                    },
+                    "rate": "perhr",
+                    "name": "yearTerm3Hourly"
+                  }
+                ],
+                "size": "db.t1.micro"
+              },
+              {
+                "valueColumns": [
+                  {
+                    "prices": {
+                      "USD": "132"
+                    },
+                    "name": "yrTerm1"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.116"
+                    },
+                    "rate": "perhr",
+                    "name": "yearTerm1Hourly"
+                  },
+                  {
+                    "prices": {
+                      "USD": "203"
+                    },
+                    "name": "yrTerm3"
+                  },
+                  {
+                    "prices": {
+                      "USD": "0.094"
+                    },
+                    "rate": "perhr",
+                    "name": "yearTerm3Hourly"
+                  }
+                ],
+                "size": "db.m1.small"
+              }
+            ],
+            "type": "stdDeployRes"
+          }
+        ]
+      }
+    ],
+    "currencies": [
+      "USD"
+    ],
+    "valueColumns": [
+      "upfront",
+      "hourly",
+      "upfront",
+      "hourly"
+    ]
+  }
+}

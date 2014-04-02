@@ -1,0 +1,167 @@
+{
+  "vers": 0.01,
+  "config": {
+    "valueColumns": [
+      "yrTerm1",
+      "yrTerm3",
+      "usageRate"
+    ],
+    "currencies": [
+      "USD"
+    ],
+    "regions": [
+      {
+        "region": "us-east",
+        "rates": [
+          {
+            "type": "multiAZStorageRate",
+            "prices": {
+              "USD": "0.250"
+            },
+            "rate": "perGBmo"
+          },
+          {
+            "type": "multiAZPiopsRate",
+            "prices": {
+              "USD": "0.20"
+            },
+            "rate": "perIOPSmonth"
+          }
+        ]
+      },
+      {
+        "region": "us-west-2",
+        "rates": [
+          {
+            "type": "multiAZStorageRate",
+            "prices": {
+              "USD": "0.250"
+            },
+            "rate": "perGBmo"
+          },
+          {
+            "type": "multiAZPiopsRate",
+            "prices": {
+              "USD": "0.20"
+            },
+            "rate": "perIOPSmonth"
+          }
+        ]
+      },
+      {
+        "region": "us-west",
+        "rates": [
+          {
+            "type": "multiAZStorageRate",
+            "prices": {
+              "USD": "0.276"
+            },
+            "rate": "perGBmo"
+          },
+          {
+            "type": "multiAZPiopsRate",
+            "prices": {
+              "USD": "0.22"
+            },
+            "rate": "perIOPSmonth"
+          }
+        ]
+      },
+      {
+        "region": "eu-ireland",
+        "rates": [
+          {
+            "type": "multiAZStorageRate",
+            "prices": {
+              "USD": "0.276"
+            },
+            "rate": "perGBmo"
+          },
+          {
+            "type": "multiAZPiopsRate",
+            "prices": {
+              "USD": "0.22"
+            },
+            "rate": "perIOPSmonth"
+          }
+        ]
+      },
+      {
+        "region": "apac-sin",
+        "rates": [
+          {
+            "type": "multiAZStorageRate",
+            "prices": {
+              "USD": "0.276"
+            },
+            "rate": "perGBmo"
+          },
+          {
+            "type": "multiAZPiopsRate",
+            "prices": {
+              "USD": "0.22"
+            },
+            "rate": "perIOPSmonth"
+          }
+        ]
+      },
+      {
+        "region": "apac-tokyo",
+        "rates": [
+          {
+            "type": "multiAZStorageRate",
+            "prices": {
+              "USD": "0.30"
+            },
+            "rate": "perGBmo"
+          },
+          {
+            "type": "multiAZPiopsRate",
+            "prices": {
+              "USD": "0.24"
+            },
+            "rate": "perIOPSmonth"
+          }
+        ]
+      },
+      {
+        "region": "apac-syd",
+        "rates": [
+          {
+            "type": "multiAZStorageRate",
+            "prices": {
+              "USD": "0.276"
+            },
+            "rate": "perGBmo"
+          },
+          {
+            "type": "multiAZPiopsRate",
+            "prices": {
+              "USD": "0.22"
+            },
+            "rate": "perIOPSmonth"
+          }
+        ]
+      },
+      {
+        "region": "sa-east-1",
+        "rates": [
+          {
+            "type": "multiAZStorageRate",
+            "prices": {
+              "USD": "0.476"
+            },
+            "rate": "perGBmo"
+          },
+          {
+            "type": "multiAZPiopsRate",
+            "prices": {
+              "USD": "0.28"
+            },
+            "rate": "perIOPSmonth"
+          }
+        ]
+      }
+    ]
+  }
+}

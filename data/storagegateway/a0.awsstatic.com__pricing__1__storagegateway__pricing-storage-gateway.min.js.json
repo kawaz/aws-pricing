@@ -1,0 +1,559 @@
+{
+  "vers": 0.01,
+  "config": {
+    "currencies": [
+      "USD"
+    ],
+    "rate": "perGB",
+    "regions": [
+      {
+        "region": "us-east",
+        "footnotes": {
+          "&dagger;": "billedAsEBS",
+          "&dagger;&dagger;": "highestPeakConcurrent",
+          "&dagger;&dagger;&dagger;": "earlyDelete030"
+        },
+        "types": [
+          {
+            "name": "volumes",
+            "tiers": [
+              {
+                "name": "volumeStorage",
+                "prices": {
+                  "USD": "0.085"
+                },
+                "rate": "perGBmoDataStored"
+              },
+              {
+                "name": "#{snapshotStorage}&dagger;",
+                "prices": {
+                  "USD": "0.095"
+                },
+                "rate": "perGBmoDataStored"
+              },
+              {
+                "name": "volumeDeletes",
+                "prices": {
+                  "USD": "Free"
+                },
+                "rate": ""
+              }
+            ]
+          },
+          {
+            "name": "virtualTape",
+            "tiers": [
+              {
+                "name": "shelfStorage",
+                "prices": {
+                  "USD": "0.010"
+                },
+                "rate": "perGBmoDataStored"
+              },
+              {
+                "name": "libraryStorage",
+                "prices": {
+                  "USD": "0.085"
+                },
+                "rate": "perGBmoDataStored"
+              },
+              {
+                "name": "tapeRetrieval",
+                "prices": {
+                  "USD": "0.30"
+                },
+                "rate": "#{perGB}&dagger;&dagger;"
+              },
+              {
+                "name": "tapeDeletes",
+                "prices": {
+                  "USD": "#{free}&dagger;&dagger;&dagger;"
+                },
+                "rate": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "region": "us-west-2",
+        "footnotes": {
+          "&dagger;": "billedAsEBS",
+          "&dagger;&dagger;": "highestPeakConcurrent",
+          "&dagger;&dagger;&dagger;": "earlyDelete030"
+        },
+        "types": [
+          {
+            "name": "volumes",
+            "tiers": [
+              {
+                "name": "volumeStorage",
+                "prices": {
+                  "USD": "0.085"
+                },
+                "rate": "perGBmoDataStored"
+              },
+              {
+                "name": "#{snapshotStorage}&dagger;",
+                "prices": {
+                  "USD": "0.095"
+                },
+                "rate": "perGBmoDataStored"
+              },
+              {
+                "name": "volumeDeletes",
+                "prices": {
+                  "USD": "Free"
+                },
+                "rate": ""
+              }
+            ]
+          },
+          {
+            "name": "virtualTape",
+            "tiers": [
+              {
+                "name": "shelfStorage",
+                "prices": {
+                  "USD": "0.010"
+                },
+                "rate": "perGBmoDataStored"
+              },
+              {
+                "name": "libraryStorage",
+                "prices": {
+                  "USD": "0.085"
+                },
+                "rate": "perGBmoDataStored"
+              },
+              {
+                "name": "tapeRetrieval",
+                "prices": {
+                  "USD": "0.30"
+                },
+                "rate": "#{perGB}&dagger;&dagger;"
+              },
+              {
+                "name": "tapeDeletes",
+                "prices": {
+                  "USD": "#{free}&dagger;&dagger;&dagger;"
+                },
+                "rate": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "region": "us-west",
+        "footnotes": {
+          "&dagger;": "billedAsEBS",
+          "&dagger;&dagger;": "highestPeakConcurrent",
+          "&dagger;&dagger;&dagger;": "earlyDelete033"
+        },
+        "types": [
+          {
+            "name": "volumes",
+            "tiers": [
+              {
+                "name": "volumeStorage",
+                "prices": {
+                  "USD": "0.094"
+                },
+                "rate": "perGBmoDataStored"
+              },
+              {
+                "name": "#{snapshotStorage}&dagger;",
+                "prices": {
+                  "USD": "0.105"
+                },
+                "rate": "perGBmoDataStored"
+              },
+              {
+                "name": "volumeDeletes",
+                "prices": {
+                  "USD": "Free"
+                },
+                "rate": ""
+              }
+            ]
+          },
+          {
+            "name": "virtualTape",
+            "tiers": [
+              {
+                "name": "shelfStorage",
+                "prices": {
+                  "USD": "0.011"
+                },
+                "rate": "perGBmoDataStored"
+              },
+              {
+                "name": "libraryStorage",
+                "prices": {
+                  "USD": "0.094"
+                },
+                "rate": "perGBmoDataStored"
+              },
+              {
+                "name": "tapeRetrieval",
+                "prices": {
+                  "USD": "0.33"
+                },
+                "rate": "#{perGB}&dagger;&dagger;"
+              },
+              {
+                "name": "tapeDeletes",
+                "prices": {
+                  "USD": "#{free}&dagger;&dagger;&dagger;"
+                },
+                "rate": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "region": "eu-ireland",
+        "footnotes": {
+          "&dagger;": "billedAsEBS",
+          "&dagger;&dagger;": "highestPeakConcurrent",
+          "&dagger;&dagger;&dagger;": "earlyDelete033"
+        },
+        "types": [
+          {
+            "name": "volumes",
+            "tiers": [
+              {
+                "name": "volumeStorage",
+                "prices": {
+                  "USD": "0.085"
+                },
+                "rate": "perGBmoDataStored"
+              },
+              {
+                "name": "#{snapshotStorage}&dagger;",
+                "prices": {
+                  "USD": "0.095"
+                },
+                "rate": "perGBmoDataStored"
+              },
+              {
+                "name": "volumeDeletes",
+                "prices": {
+                  "USD": "Free"
+                },
+                "rate": ""
+              }
+            ]
+          },
+          {
+            "name": "virtualTape",
+            "tiers": [
+              {
+                "name": "shelfStorage",
+                "prices": {
+                  "USD": "0.011"
+                },
+                "rate": "perGBmoDataStored"
+              },
+              {
+                "name": "libraryStorage",
+                "prices": {
+                  "USD": "0.085"
+                },
+                "rate": "perGBmoDataStored"
+              },
+              {
+                "name": "tapeRetrieval",
+                "prices": {
+                  "USD": "0.33"
+                },
+                "rate": "#{perGB}&dagger;&dagger;"
+              },
+              {
+                "name": "tapeDeletes",
+                "prices": {
+                  "USD": "#{free}&dagger;&dagger;&dagger;"
+                },
+                "rate": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "region": "apac-sin",
+        "footnotes": {
+          "&dagger;": "billedAsEBS"
+        },
+        "types": [
+          {
+            "name": "volumes",
+            "tiers": [
+              {
+                "name": "volumeStorage",
+                "prices": {
+                  "USD": "0.085"
+                },
+                "rate": "perGBmoDataStored"
+              },
+              {
+                "name": "#{snapshotStorage}&dagger;",
+                "prices": {
+                  "USD": "0.095"
+                },
+                "rate": "perGBmoDataStored"
+              },
+              {
+                "name": "volumeDeletes",
+                "prices": {
+                  "USD": "Free"
+                },
+                "rate": ""
+              }
+            ]
+          },
+          {
+            "name": "virtualTape",
+            "tiers": [
+              {
+                "name": "shelfStorage",
+                "prices": {
+                  "USD": "N/A"
+                },
+                "rate": ""
+              },
+              {
+                "name": "libraryStorage",
+                "prices": {
+                  "USD": "N/A"
+                },
+                "rate": ""
+              },
+              {
+                "name": "tapeRetrieval",
+                "prices": {
+                  "USD": "N/A"
+                },
+                "rate": ""
+              },
+              {
+                "name": "tapeDeletes",
+                "prices": {
+                  "USD": "N/A"
+                },
+                "rate": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "region": "apac-tokyo",
+        "footnotes": {
+          "&dagger;": "billedAsEBS",
+          "&dagger;&dagger;": "highestPeakConcurrent",
+          "&dagger;&dagger;&dagger;": "earlyDelete036"
+        },
+        "types": [
+          {
+            "name": "volumes",
+            "tiers": [
+              {
+                "name": "volumeStorage",
+                "prices": {
+                  "USD": "0.094"
+                },
+                "rate": "perGBmoDataStored"
+              },
+              {
+                "name": "#{snapshotStorage}&dagger;",
+                "prices": {
+                  "USD": "0.100"
+                },
+                "rate": "perGBmoDataStored"
+              },
+              {
+                "name": "volumeDeletes",
+                "prices": {
+                  "USD": "Free"
+                },
+                "rate": ""
+              }
+            ]
+          },
+          {
+            "name": "virtualTape",
+            "tiers": [
+              {
+                "name": "shelfStorage",
+                "prices": {
+                  "USD": "0.012"
+                },
+                "rate": "perGBmoDataStored"
+              },
+              {
+                "name": "libraryStorage",
+                "prices": {
+                  "USD": "0.094"
+                },
+                "rate": "perGBmoDataStored"
+              },
+              {
+                "name": "tapeRetrieval",
+                "prices": {
+                  "USD": "0.36"
+                },
+                "rate": "#{perGB}&dagger;&dagger;"
+              },
+              {
+                "name": "tapeDeletes",
+                "prices": {
+                  "USD": "#{free}&dagger;&dagger;&dagger;"
+                },
+                "rate": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "region": "apac-syd",
+        "footnotes": {
+          "&dagger;": "billedAsEBS",
+          "&dagger;&dagger;": "highestPeakConcurrent",
+          "&dagger;&dagger;&dagger;": "earlyDelete036"
+        },
+        "types": [
+          {
+            "name": "volumes",
+            "tiers": [
+              {
+                "name": "volumeStorage",
+                "prices": {
+                  "USD": "0.094"
+                },
+                "rate": "perGBmoDataStored"
+              },
+              {
+                "name": "#{snapshotStorage}&dagger;",
+                "prices": {
+                  "USD": "0.105"
+                },
+                "rate": "perGBmoDataStored"
+              },
+              {
+                "name": "volumeDeletes",
+                "prices": {
+                  "USD": "Free"
+                },
+                "rate": ""
+              }
+            ]
+          },
+          {
+            "name": "virtualTape",
+            "tiers": [
+              {
+                "name": "shelfStorage",
+                "prices": {
+                  "USD": "0.012"
+                },
+                "rate": "perGBmoDataStored"
+              },
+              {
+                "name": "libraryStorage",
+                "prices": {
+                  "USD": "0.094"
+                },
+                "rate": "perGBmoDataStored"
+              },
+              {
+                "name": "tapeRetrieval",
+                "prices": {
+                  "USD": "0.36"
+                },
+                "rate": "#{perGB}&dagger;&dagger;"
+              },
+              {
+                "name": "tapeDeletes",
+                "prices": {
+                  "USD": "#{free}&dagger;&dagger;&dagger;"
+                },
+                "rate": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "region": "sa-east-1",
+        "footnotes": {
+          "&dagger;": "billedAsEBS"
+        },
+        "types": [
+          {
+            "name": "volumes",
+            "tiers": [
+              {
+                "name": "volumeStorage",
+                "prices": {
+                  "USD": "0.116"
+                },
+                "rate": "perGBmoDataStored"
+              },
+              {
+                "name": "#{snapshotStorage}&dagger;",
+                "prices": {
+                  "USD": "0.130"
+                },
+                "rate": "perGBmoDataStored"
+              },
+              {
+                "name": "volumeDeletes",
+                "prices": {
+                  "USD": "Free"
+                },
+                "rate": ""
+              }
+            ]
+          },
+          {
+            "name": "virtualTape",
+            "tiers": [
+              {
+                "name": "shelfStorage",
+                "prices": {
+                  "USD": "N/A"
+                },
+                "rate": ""
+              },
+              {
+                "name": "libraryStorage",
+                "prices": {
+                  "USD": "N/A"
+                },
+                "rate": ""
+              },
+              {
+                "name": "tapeRetrieval",
+                "prices": {
+                  "USD": "N/A"
+                },
+                "rate": ""
+              },
+              {
+                "name": "tapeDeletes",
+                "prices": {
+                  "USD": "N/A"
+                },
+                "rate": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,710 @@
+{
+  "vers": 0.01,
+  "config": {
+    "regions": [
+      {
+        "region": "us-east",
+        "types": [
+          {
+            "tiers": [
+              {
+                "prices": {
+                  "USD": "0.050"
+                },
+                "name": "db.t1.micro"
+              },
+              {
+                "prices": {
+                  "USD": "0.255"
+                },
+                "name": "db.m3.medium"
+              },
+              {
+                "prices": {
+                  "USD": "0.510"
+                },
+                "name": "db.m3.large"
+              },
+              {
+                "prices": {
+                  "USD": "1.020"
+                },
+                "name": "db.m3.xlarge"
+              },
+              {
+                "prices": {
+                  "USD": "2.035"
+                },
+                "name": "db.m3.2xlarge"
+              },
+              {
+                "prices": {
+                  "USD": "0.135"
+                },
+                "name": "db.m1.small"
+              },
+              {
+                "prices": {
+                  "USD": "0.275"
+                },
+                "name": "db.m1.medium"
+              },
+              {
+                "prices": {
+                  "USD": "0.545"
+                },
+                "name": "db.m1.large"
+              },
+              {
+                "prices": {
+                  "USD": "1.090"
+                },
+                "name": "db.m1.xlarge"
+              }
+            ],
+            "name": "multiAZDBInstClass"
+          },
+          {
+            "tiers": [
+              {
+                "prices": {
+                  "USD": "0.945"
+                },
+                "name": "db.m1.xlarge"
+              },
+              {
+                "prices": {
+                  "USD": "1.890"
+                },
+                "name": "db.m2.2xlarge"
+              },
+              {
+                "prices": {
+                  "USD": "3.770"
+                },
+                "name": "db.m2.4xlarge"
+              }
+            ],
+            "name": "memDBCurrentGen"
+          }
+        ]
+      },
+      {
+        "region": "us-west-2",
+        "types": [
+          {
+            "tiers": [
+              {
+                "prices": {
+                  "USD": "0.050"
+                },
+                "name": "db.t1.micro"
+              },
+              {
+                "prices": {
+                  "USD": "0.255"
+                },
+                "name": "db.m3.medium"
+              },
+              {
+                "prices": {
+                  "USD": "0.510"
+                },
+                "name": "db.m3.large"
+              },
+              {
+                "prices": {
+                  "USD": "1.020"
+                },
+                "name": "db.m3.xlarge"
+              },
+              {
+                "prices": {
+                  "USD": "2.035"
+                },
+                "name": "db.m3.2xlarge"
+              },
+              {
+                "prices": {
+                  "USD": "0.135"
+                },
+                "name": "db.m1.small"
+              },
+              {
+                "prices": {
+                  "USD": "0.275"
+                },
+                "name": "db.m1.medium"
+              },
+              {
+                "prices": {
+                  "USD": "0.545"
+                },
+                "name": "db.m1.large"
+              },
+              {
+                "prices": {
+                  "USD": "1.090"
+                },
+                "name": "db.m1.xlarge"
+              }
+            ],
+            "name": "multiAZDBInstClass"
+          },
+          {
+            "tiers": [
+              {
+                "prices": {
+                  "USD": "0.945"
+                },
+                "name": "db.m1.xlarge"
+              },
+              {
+                "prices": {
+                  "USD": "1.890"
+                },
+                "name": "db.m2.2xlarge"
+              },
+              {
+                "prices": {
+                  "USD": "3.770"
+                },
+                "name": "db.m2.4xlarge"
+              }
+            ],
+            "name": "memDBCurrentGen"
+          }
+        ]
+      },
+      {
+        "region": "us-west",
+        "types": [
+          {
+            "tiers": [
+              {
+                "prices": {
+                  "USD": "0.050"
+                },
+                "name": "db.t1.micro"
+              },
+              {
+                "prices": {
+                  "USD": "0.275"
+                },
+                "name": "db.m3.medium"
+              },
+              {
+                "prices": {
+                  "USD": "0.555"
+                },
+                "name": "db.m3.large"
+              },
+              {
+                "prices": {
+                  "USD": "1.100"
+                },
+                "name": "db.m3.xlarge"
+              },
+              {
+                "prices": {
+                  "USD": "2.185"
+                },
+                "name": "db.m3.2xlarge"
+              },
+              {
+                "prices": {
+                  "USD": "0.145"
+                },
+                "name": "db.m1.small"
+              },
+              {
+                "prices": {
+                  "USD": "0.290"
+                },
+                "name": "db.m1.medium"
+              },
+              {
+                "prices": {
+                  "USD": "0.580"
+                },
+                "name": "db.m1.large"
+              },
+              {
+                "prices": {
+                  "USD": "1.160"
+                },
+                "name": "db.m1.xlarge"
+              }
+            ],
+            "name": "multiAZDBInstClass"
+          },
+          {
+            "tiers": [
+              {
+                "prices": {
+                  "USD": "1.030"
+                },
+                "name": "db.m1.xlarge"
+              },
+              {
+                "prices": {
+                  "USD": "2.060"
+                },
+                "name": "db.m2.2xlarge"
+              },
+              {
+                "prices": {
+                  "USD": "4.110"
+                },
+                "name": "db.m2.4xlarge"
+              }
+            ],
+            "name": "memDBCurrentGen"
+          }
+        ]
+      },
+      {
+        "region": "eu-ireland",
+        "types": [
+          {
+            "tiers": [
+              {
+                "prices": {
+                  "USD": "0.070"
+                },
+                "name": "db.t1.micro"
+              },
+              {
+                "prices": {
+                  "USD": "0.275"
+                },
+                "name": "db.m3.medium"
+              },
+              {
+                "prices": {
+                  "USD": "0.555"
+                },
+                "name": "db.m3.large"
+              },
+              {
+                "prices": {
+                  "USD": "1.100"
+                },
+                "name": "db.m3.xlarge"
+              },
+              {
+                "prices": {
+                  "USD": "2.185"
+                },
+                "name": "db.m3.2xlarge"
+              },
+              {
+                "prices": {
+                  "USD": "0.145"
+                },
+                "name": "db.m1.small"
+              },
+              {
+                "prices": {
+                  "USD": "0.290"
+                },
+                "name": "db.m1.medium"
+              },
+              {
+                "prices": {
+                  "USD": "0.580"
+                },
+                "name": "db.m1.large"
+              },
+              {
+                "prices": {
+                  "USD": "1.160"
+                },
+                "name": "db.m1.xlarge"
+              }
+            ],
+            "name": "multiAZDBInstClass"
+          },
+          {
+            "tiers": [
+              {
+                "prices": {
+                  "USD": "1.030"
+                },
+                "name": "db.m1.xlarge"
+              },
+              {
+                "prices": {
+                  "USD": "2.060"
+                },
+                "name": "db.m2.2xlarge"
+              },
+              {
+                "prices": {
+                  "USD": "4.110"
+                },
+                "name": "db.m2.4xlarge"
+              }
+            ],
+            "name": "memDBCurrentGen"
+          }
+        ]
+      },
+      {
+        "region": "apac-sin",
+        "types": [
+          {
+            "tiers": [
+              {
+                "prices": {
+                  "USD": "0.070"
+                },
+                "name": "db.t1.micro"
+              },
+              {
+                "prices": {
+                  "USD": "0.335"
+                },
+                "name": "db.m3.medium"
+              },
+              {
+                "prices": {
+                  "USD": "0.665"
+                },
+                "name": "db.m3.large"
+              },
+              {
+                "prices": {
+                  "USD": "1.330"
+                },
+                "name": "db.m3.xlarge"
+              },
+              {
+                "prices": {
+                  "USD": "2.645"
+                },
+                "name": "db.m3.2xlarge"
+              },
+              {
+                "prices": {
+                  "USD": "0.170"
+                },
+                "name": "db.m1.small"
+              },
+              {
+                "prices": {
+                  "USD": "0.340"
+                },
+                "name": "db.m1.medium"
+              },
+              {
+                "prices": {
+                  "USD": "0.680"
+                },
+                "name": "db.m1.large"
+              },
+              {
+                "prices": {
+                  "USD": "1.360"
+                },
+                "name": "db.m1.xlarge"
+              }
+            ],
+            "name": "multiAZDBInstClass"
+          },
+          {
+            "tiers": [
+              {
+                "prices": {
+                  "USD": "1.090"
+                },
+                "name": "db.m1.xlarge"
+              },
+              {
+                "prices": {
+                  "USD": "2.180"
+                },
+                "name": "db.m2.2xlarge"
+              },
+              {
+                "prices": {
+                  "USD": "4.345"
+                },
+                "name": "db.m2.4xlarge"
+              }
+            ],
+            "name": "memDBCurrentGen"
+          }
+        ]
+      },
+      {
+        "region": "apac-tokyo",
+        "types": [
+          {
+            "tiers": [
+              {
+                "prices": {
+                  "USD": "0.070"
+                },
+                "name": "db.t1.micro"
+              },
+              {
+                "prices": {
+                  "USD": "0.360"
+                },
+                "name": "db.m3.medium"
+              },
+              {
+                "prices": {
+                  "USD": "0.710"
+                },
+                "name": "db.m3.large"
+              },
+              {
+                "prices": {
+                  "USD": "1.420"
+                },
+                "name": "db.m3.xlarge"
+              },
+              {
+                "prices": {
+                  "USD": "2.835"
+                },
+                "name": "db.m3.2xlarge"
+              },
+              {
+                "prices": {
+                  "USD": "0.190"
+                },
+                "name": "db.m1.small"
+              },
+              {
+                "prices": {
+                  "USD": "0.370"
+                },
+                "name": "db.m1.medium"
+              },
+              {
+                "prices": {
+                  "USD": "0.735"
+                },
+                "name": "db.m1.large"
+              },
+              {
+                "prices": {
+                  "USD": "1.465"
+                },
+                "name": "db.m1.xlarge"
+              }
+            ],
+            "name": "multiAZDBInstClass"
+          },
+          {
+            "tiers": [
+              {
+                "prices": {
+                  "USD": "1.105"
+                },
+                "name": "db.m1.xlarge"
+              },
+              {
+                "prices": {
+                  "USD": "2.210"
+                },
+                "name": "db.m2.2xlarge"
+              },
+              {
+                "prices": {
+                  "USD": "4.415"
+                },
+                "name": "db.m2.4xlarge"
+              }
+            ],
+            "name": "memDBCurrentGen"
+          }
+        ]
+      },
+      {
+        "region": "sa-east-1",
+        "types": [
+          {
+            "tiers": [
+              {
+                "prices": {
+                  "USD": "0.070"
+                },
+                "name": "db.t1.micro"
+              },
+              {
+                "prices": {
+                  "USD": "0.325"
+                },
+                "name": "db.m3.medium"
+              },
+              {
+                "prices": {
+                  "USD": "0.650"
+                },
+                "name": "db.m3.large"
+              },
+              {
+                "prices": {
+                  "USD": "1.295"
+                },
+                "name": "db.m3.xlarge"
+              },
+              {
+                "prices": {
+                  "USD": "2.585"
+                },
+                "name": "db.m3.2xlarge"
+              },
+              {
+                "prices": {
+                  "USD": "0.170"
+                },
+                "name": "db.m1.small"
+              },
+              {
+                "prices": {
+                  "USD": "0.340"
+                },
+                "name": "db.m1.medium"
+              },
+              {
+                "prices": {
+                  "USD": "0.680"
+                },
+                "name": "db.m1.large"
+              },
+              {
+                "prices": {
+                  "USD": "1.360"
+                },
+                "name": "db.m1.xlarge"
+              }
+            ],
+            "name": "multiAZDBInstClass"
+          },
+          {
+            "tiers": [
+              {
+                "prices": {
+                  "USD": "1.165"
+                },
+                "name": "db.m1.xlarge"
+              },
+              {
+                "prices": {
+                  "USD": "2.330"
+                },
+                "name": "db.m2.2xlarge"
+              },
+              {
+                "prices": {
+                  "USD": "4.650"
+                },
+                "name": "db.m2.4xlarge"
+              }
+            ],
+            "name": "memDBCurrentGen"
+          }
+        ]
+      },
+      {
+        "region": "apac-syd",
+        "types": [
+          {
+            "tiers": [
+              {
+                "prices": {
+                  "USD": "0.070"
+                },
+                "name": "db.t1.micro"
+              },
+              {
+                "prices": {
+                  "USD": "0.335"
+                },
+                "name": "db.m3.medium"
+              },
+              {
+                "prices": {
+                  "USD": "0.665"
+                },
+                "name": "db.m3.large"
+              },
+              {
+                "prices": {
+                  "USD": "1.330"
+                },
+                "name": "db.m3.xlarge"
+              },
+              {
+                "prices": {
+                  "USD": "2.645"
+                },
+                "name": "db.m3.2xlarge"
+              },
+              {
+                "prices": {
+                  "USD": "0.170"
+                },
+                "name": "db.m1.small"
+              },
+              {
+                "prices": {
+                  "USD": "0.340"
+                },
+                "name": "db.m1.medium"
+              },
+              {
+                "prices": {
+                  "USD": "0.680"
+                },
+                "name": "db.m1.large"
+              },
+              {
+                "prices": {
+                  "USD": "1.360"
+                },
+                "name": "db.m1.xlarge"
+              }
+            ],
+            "name": "multiAZDBInstClass"
+          },
+          {
+            "tiers": [
+              {
+                "prices": {
+                  "USD": "1.090"
+                },
+                "name": "db.m1.xlarge"
+              },
+              {
+                "prices": {
+                  "USD": "2.180"
+                },
+                "name": "db.m2.2xlarge"
+              },
+              {
+                "prices": {
+                  "USD": "4.345"
+                },
+                "name": "db.m2.4xlarge"
+              }
+            ],
+            "name": "memDBCurrentGen"
+          }
+        ]
+      }
+    ],
+    "rate": "",
+    "currencies": [
+      "USD"
+    ],
+    "valueColumns": [
+      "pricePerHour"
+    ]
+  }
+}
