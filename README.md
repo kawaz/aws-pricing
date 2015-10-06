@@ -1,2 +1,2 @@
 # aws-pricing
-Save pricing json of aws services
+Collect pricing json of aws services.
